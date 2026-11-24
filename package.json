@@ -1,0 +1,19 @@
+{
+    "name": "local-video-generator",
+    "version": "0.2.0",
+    "private": true,
+    "type": "module",
+    "description": "Unified presenter and product video workflows on a preserved Adu upstream",
+    "engines": {
+        "node": ">=22.16.0"
+    },
+    "scripts": {
+        "test": "node --test test/*.test.mjs",
+        "doctor": "node src/cli.mjs doctor"
+    },
+    "dependencies": {
+        "ajv": "^8.17.1",
+        "acorn": "8.15.0",
+        "playwright-core": "1.58.2"
+    }
+}

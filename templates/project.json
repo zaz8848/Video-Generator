@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "name": "产品介绍",
+    "width": 1600,
+    "height": 1200,
+    "fps": 24,
+    "inset": 24,
+    "background": "#f3f6f5",
+    "output": "deliverables/product-v1.mp4",
+    "clips": [
+        {
+            "mode": "play",
+            "source": "assets/recording.mp4",
+            "in": 0,
+            "duration": 4
+        },
+        {
+            "mode": "freeze",
+            "source": "assets/recording.mp4",
+            "in": 4,
+            "duration": 3
+        },
+        {
+            "mode": "play",
+            "source": "assets/recording.mp4",
+            "in": 4,
+            "duration": 4
+        }
+    ],
+    "narration": []
+}

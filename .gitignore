@@ -1,0 +1,14 @@
+node_modules/
+.runtime/
+.venv-windows/
+.venv-posix/
+sessions/
+deliverables/
+.env
+.env.local
+profiles/*.local.env
+profiles/*.local.json
+profiles/*
+!profiles/tts.env.example
+.env.*
+*.log

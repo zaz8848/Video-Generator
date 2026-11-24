@@ -1,0 +1,5220 @@
+{
+  "version": 1,
+  "repository": "adunext/adu-motion-video",
+  "url": "https://github.com/adunext/adu-motion-video",
+  "commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+  "root": "upstream/adu-motion-video",
+  "license": "MIT; third-party assets retain separate notices",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 439,
+      "sha": "14572eec5ce32d3769600580532cf8bb43be046a"
+    },
+    {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 8370,
+      "sha": "ef2a21cc0a88a7d1565829a8d96da4db0f934a1f"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "README.md",
+      "size": 12559,
+      "sha": "faca772cbc0a199f0ee2d08d01ec6b263df7f2c2"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 19796,
+      "sha": "03cf532debf8a5695f567c9ee8ed20604e094b4b"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "size": 6318,
+      "sha": "3c4ec9c24a81a31d68104049a3f63ae36cdc95fb"
+    },
+    {
+      "path": "adaptation-profiles/README.md",
+      "size": 2126,
+      "sha": "78992fec45d1bbbe1c04a70343af00d1a4f225a6"
+    },
+    {
+      "path": "adaptation-profiles/anim4-showcase-macro/1.1.1-candidate.json",
+      "size": 17546,
+      "sha": "7d1e7f053b92a02303d9d09299bf493d1feca090"
+    },
+    {
+      "path": "adaptation-profiles/anim4-showcase-macro/1.2.0-candidate.json",
+      "size": 17546,
+      "sha": "37219ae57833be4157945497d413bbdb95b71a25"
+    },
+    {
+      "path": "adaptation-profiles/classic-performance/1.0.0.json",
+      "size": 6220,
+      "sha": "5913b354ae549ea924d8cccc1a16e3e650ba4908"
+    },
+    {
+      "path": "adaptation-profiles/classic-performance/1.1.0-candidate.json",
+      "size": 6230,
+      "sha": "aa2221d8da0b2d65837d3a81a99f6d55671c2b40"
+    },
+    {
+      "path": "adaptation-profiles/classic-performance/1.1.1-candidate.json",
+      "size": 6230,
+      "sha": "325b0c2c4eb3dc1652dec35e09bccffd838f2f5f"
+    },
+    {
+      "path": "adaptation-profiles/continuous-performance/1.0.0.json",
+      "size": 4526,
+      "sha": "28fcd635d8f5ed42d5f690c23a5aa45608d10b1e"
+    },
+    {
+      "path": "adaptation-profiles/continuous-performance/1.1.0-candidate.json",
+      "size": 4536,
+      "sha": "b87b0d1529c3c4c49e30742192be2ff17cab6a56"
+    },
+    {
+      "path": "adaptation-profiles/continuous-performance/1.1.1-candidate.json",
+      "size": 4536,
+      "sha": "1ff6dd85796f06c91bd426094b45ad57799e568a"
+    },
+    {
+      "path": "adaptation-profiles/editorial-performance/1.0.0.json",
+      "size": 6619,
+      "sha": "50c6302b92ba979897aea2a942d561ff36ab7c5e"
+    },
+    {
+      "path": "adaptation-profiles/editorial-performance/1.1.0-candidate.json",
+      "size": 6629,
+      "sha": "c27d1a2f3c4de32fb0fbf533a72c9ad5aecf2fac"
+    },
+    {
+      "path": "adaptation-profiles/kinetic-performance/1.0.0.json",
+      "size": 6569,
+      "sha": "cd48ebc62283cd3b2a0dcbd129d9a52cdc8c7907"
+    },
+    {
+      "path": "adaptation-profiles/kinetic-performance/1.1.0-candidate.json",
+      "size": 6579,
+      "sha": "e23c7e4afe82cbfc90c8370e222c7a5b2e105a37"
+    },
+    {
+      "path": "adaptation-profiles/paper-balance/1.0.0.json",
+      "size": 2603,
+      "sha": "17541c19901a9615c6d0a0bd6fe157fdf3cfeab2"
+    },
+    {
+      "path": "adaptation-profiles/paper-balance/1.1.0-candidate.json",
+      "size": 2613,
+      "sha": "79fda6f93e308e94cc1639e96b2ff22f77a1d02c"
+    },
+    {
+      "path": "adaptation-profiles/paper-balance/1.1.1-candidate.json",
+      "size": 2613,
+      "sha": "89f5268f875c3d19d74bbe5c349dc8349be01771"
+    },
+    {
+      "path": "adaptation-profiles/paper-ball-performance/1.0.0.json",
+      "size": 4622,
+      "sha": "443735ca6ca0afb1f1a6ac4f38186ee2d0582089"
+    },
+    {
+      "path": "adaptation-profiles/paper-ball-performance/1.1.0-candidate.json",
+      "size": 4632,
+      "sha": "eec74860e95176e359f4589984a7280d09875013"
+    },
+    {
+      "path": "adaptation-profiles/paper-ball-performance/1.1.1-candidate.json",
+      "size": 4632,
+      "sha": "9786cb8c32b752c5de3933d8ba69f66bb4b85087"
+    },
+    {
+      "path": "adaptation-profiles/stage-performance/1.0.0.json",
+      "size": 6666,
+      "sha": "66f477e0f2e8147f2337c674ea0fc4239a0bf56c"
+    },
+    {
+      "path": "adaptation-profiles/stage-performance/1.1.0-candidate.json",
+      "size": 6676,
+      "sha": "b288a264c2760d4080f15277db184fc247cbd885"
+    },
+    {
+      "path": "adaptation-profiles/stage-performance/1.1.1-candidate.json",
+      "size": 6676,
+      "sha": "bb7843fbcb094d7253c8a740ebf3b9e010c13e75"
+    },
+    {
+      "path": "adapters/doubao-console/README.md",
+      "size": 1148,
+      "sha": "39bf5d2edbb6d7746431288994f0aa9f6fcac395"
+    },
+    {
+      "path": "adapters/doubao-console/bridge.js",
+      "size": 1910,
+      "sha": "e48299add15887b212a975f8c1e6f3d7c0095fec"
+    },
+    {
+      "path": "adapters/doubao-console/extract.py",
+      "size": 19207,
+      "sha": "a32ccff7efefe225eacdcc9b4039f5f8145b7590"
+    },
+    {
+      "path": "adapters/doubao-console/inventory.mjs",
+      "size": 1999,
+      "sha": "643fb49e9ebf20f7f189e0478e353303b64383cd"
+    },
+    {
+      "path": "adapters/doubao-console/pack-readme.md",
+      "size": 1556,
+      "sha": "7d7ab7779f8db9a46db30d36efca35bf92b0b88a"
+    },
+    {
+      "path": "adapters/doubao-console/prepare_episode.py",
+      "size": 2389,
+      "sha": "b988244782b01fa65f873ae4861ecfbbf9f99857"
+    },
+    {
+      "path": "adapters/paper-balance/README.md",
+      "size": 2083,
+      "sha": "8c84ee2222e6f37efbce622bb5736a9e72e585a1"
+    },
+    {
+      "path": "adapters/paper-balance/extract.py",
+      "size": 19479,
+      "sha": "0f6b5d99d3befedea7c52d0384f593f0c38ea059"
+    },
+    {
+      "path": "adapters/paper-balance/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "adapters/paper-balance/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "adapters/paper-balance/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "adapters/paper-balance/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "adapters/paper-balance/pack-readme.md",
+      "size": 4925,
+      "sha": "4b3cb45801dfd06e67677aca26551652e7b50ac8"
+    },
+    {
+      "path": "adapters/paper-ball/README.md",
+      "size": 2791,
+      "sha": "b20261a2515c578e8f5edd4805b38d75da8d2f2a"
+    },
+    {
+      "path": "adapters/paper-ball/extract.py",
+      "size": 21513,
+      "sha": "1c5bff7f3406e5ec0314fc06e0e9eb93a4917a71"
+    },
+    {
+      "path": "adapters/paper-ball/pack-readme.md",
+      "size": 2339,
+      "sha": "e3a62222d6c065812d206c08775020889d76a1c7"
+    },
+    {
+      "path": "adapters/vibrant-color/README.md",
+      "size": 1697,
+      "sha": "4c760d41beb2851a1c55129cee35880dc9fdab86"
+    },
+    {
+      "path": "adapters/vibrant-color/basic-scenes.js",
+      "size": 2988,
+      "sha": "a1ed2748259bfb0a6371dee480a21a476d2b875f"
+    },
+    {
+      "path": "adapters/vibrant-color/bridge.js",
+      "size": 1636,
+      "sha": "97efff04eb97a68897c796eb10965c3e92cd2f5b"
+    },
+    {
+      "path": "adapters/vibrant-color/extract.py",
+      "size": 16011,
+      "sha": "8fe0d1beada8e9c0c29ff0bcab7a3035a020bdbc"
+    },
+    {
+      "path": "adapters/vibrant-color/inventory.mjs",
+      "size": 1999,
+      "sha": "643fb49e9ebf20f7f189e0478e353303b64383cd"
+    },
+    {
+      "path": "adapters/vibrant-color/pack-readme.md",
+      "size": 2758,
+      "sha": "03043d62e35b747a83bb0a2b6620e09102db30a7"
+    },
+    {
+      "path": "adapters/vibrant-color/portrait.js",
+      "size": 633,
+      "sha": "984f576ef4e6593e794cb3f9554d562e390b60e7"
+    },
+    {
+      "path": "adapters/vibrant-color/proposal.json",
+      "size": 35820,
+      "sha": "652d9072ec541f643169b5f32b959debac7554e8"
+    },
+    {
+      "path": "adapters/vibrant-color/typography.js",
+      "size": 2365,
+      "sha": "d3c99d6d926f8c293aea8c05cddd8eca7bb07f41"
+    },
+    {
+      "path": "adapters/vivid-sticker/README.md",
+      "size": 658,
+      "sha": "0f44d426815d54166f4a7b33c4e0a953bc1cacb8"
+    },
+    {
+      "path": "adapters/vivid-sticker/bridge.js",
+      "size": 1910,
+      "sha": "e48299add15887b212a975f8c1e6f3d7c0095fec"
+    },
+    {
+      "path": "adapters/vivid-sticker/extract.py",
+      "size": 18659,
+      "sha": "3d3eb25cc35f755694c5d1db57045693fb909479"
+    },
+    {
+      "path": "adapters/vivid-sticker/inventory.mjs",
+      "size": 1999,
+      "sha": "643fb49e9ebf20f7f189e0478e353303b64383cd"
+    },
+    {
+      "path": "adapters/vivid-sticker/pack-readme.md",
+      "size": 2066,
+      "sha": "a488269baa0e59b262fbf44fb76e9f47c7eae379"
+    },
+    {
+      "path": "adapters/vivid-sticker/portrait.css",
+      "size": 763,
+      "sha": "32fc1b1a528e6b7277c07d4f78e6c512d7090d82"
+    },
+    {
+      "path": "adapters/vivid-sticker/portrait.js",
+      "size": 4407,
+      "sha": "54bc3f0b827e82385d8e9a2fbe61fdab67349e0c"
+    },
+    {
+      "path": "adapters/vivid-sticker/proposal.json",
+      "size": 24875,
+      "sha": "0b9de62c0801a1e9438055f0c9bd6e7dfacba616"
+    },
+    {
+      "path": "adapters/vivid-sticker/typography.js",
+      "size": 1641,
+      "sha": "07bdc5ca6b237ebac6cef95c95af5ff53249a3e8"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "size": 394,
+      "sha": "b52a942409281881ca4f122324c77c5009bc39d4"
+    },
+    {
+      "path": "assets/cover.jpg",
+      "size": 284709,
+      "sha": "ead857e4b5f468dff047e2b4e74321a052fbc4fd"
+    },
+    {
+      "path": "assets/cover.png",
+      "size": 2218426,
+      "sha": "3009c36efdf33c0f1be21dd139ba9813645880da"
+    },
+    {
+      "path": "assets/demos/01-A.gif",
+      "size": 424676,
+      "sha": "14a287fe2f2b6891ac899cd39c8ebe615fc7aa5d"
+    },
+    {
+      "path": "assets/demos/01-A.mp4",
+      "size": 529482,
+      "sha": "585c3cac981da7bfbeadaef87408efb9cdc70637"
+    },
+    {
+      "path": "assets/demos/01-B.gif",
+      "size": 240406,
+      "sha": "986592d09a64a67a26951a7d8479ccc2e1715d0a"
+    },
+    {
+      "path": "assets/demos/01-B.mp4",
+      "size": 577346,
+      "sha": "908ef7846db51c14f032b634cdf0470c5ba35796"
+    },
+    {
+      "path": "assets/demos/01-C.gif",
+      "size": 475894,
+      "sha": "2824d39a954aa00a1917c9ee93e8a33ab60d6d2f"
+    },
+    {
+      "path": "assets/demos/01-C.mp4",
+      "size": 645224,
+      "sha": "6f1990556b9f414667bc38f88c8a91937b7993f0"
+    },
+    {
+      "path": "assets/demos/01-D.gif",
+      "size": 683994,
+      "sha": "063a4032482dcd78f6f3011aef04b3d82ad08d16"
+    },
+    {
+      "path": "assets/demos/01-D.mp4",
+      "size": 786048,
+      "sha": "f50935e1044dca197837d3d779886481afa9571d"
+    },
+    {
+      "path": "assets/demos/01-E.gif",
+      "size": 280007,
+      "sha": "ea832880af75ecad2af87070761bdbf06785f874"
+    },
+    {
+      "path": "assets/demos/01-E.mp4",
+      "size": 576344,
+      "sha": "16fea550e3b07bf471c5a0e56b7d533ea294a0fa"
+    },
+    {
+      "path": "assets/demos/02-A.gif",
+      "size": 506119,
+      "sha": "2cb9e08b0bcdfb3318770291e331dbcee513a03f"
+    },
+    {
+      "path": "assets/demos/02-A.mp4",
+      "size": 483566,
+      "sha": "da478395f1be8432756a6b41de980b6b104fc95d"
+    },
+    {
+      "path": "assets/demos/02-B.gif",
+      "size": 931712,
+      "sha": "63f41f3fc991cfb6b7ca7782a99dad8ea1919f97"
+    },
+    {
+      "path": "assets/demos/02-B.mp4",
+      "size": 272012,
+      "sha": "a5f01db8cd9500e9d175721bebba9975e9b87e5e"
+    },
+    {
+      "path": "assets/demos/03-A-portrait.gif",
+      "size": 613225,
+      "sha": "1aaa498cea2272602376d942fbd33d28ce5da1d7"
+    },
+    {
+      "path": "assets/demos/03-A-portrait.mp4",
+      "size": 587045,
+      "sha": "e368bdacce13add2c66a94bb41c0ed75856f70ab"
+    },
+    {
+      "path": "assets/demos/03-A-validation.json",
+      "size": 2671,
+      "sha": "891adf22014390f12f2184740ef7c4f50823de03"
+    },
+    {
+      "path": "assets/demos/03-A.gif",
+      "size": 621230,
+      "sha": "0c1b7f7e6243af57b8f7cb873761ca5895f0d791"
+    },
+    {
+      "path": "assets/demos/03-A.mp4",
+      "size": 633149,
+      "sha": "4a00a6645fe08ac9c57e3b0cef7f1136d51074c7"
+    },
+    {
+      "path": "assets/demos/04-A.gif",
+      "size": 909206,
+      "sha": "bb462f9d4d4715cd0d2fc38792adfa30cad1e0e1"
+    },
+    {
+      "path": "assets/demos/04-A.mp4",
+      "size": 324835,
+      "sha": "bc68ae478b66fd7d91bf9c2e4d6a3833e96401ce"
+    },
+    {
+      "path": "assets/demos/05-A.gif",
+      "size": 624084,
+      "sha": "7de58a6b50d2357fe065991851ee18b1464a2f24"
+    },
+    {
+      "path": "assets/demos/05-A.mp4",
+      "size": 96849,
+      "sha": "60926e330628cde34ea33fedd59baef588a2148f"
+    },
+    {
+      "path": "assets/demos/06-A.gif",
+      "size": 179612,
+      "sha": "193ea3d3aaba259b363a2fcde1ed0464ddb0b2ba"
+    },
+    {
+      "path": "assets/demos/06-A.mp4",
+      "size": 147219,
+      "sha": "44a7c99f0a72685c5b49c755e1f4fd5bd29736a3"
+    },
+    {
+      "path": "assets/demos/README.md",
+      "size": 2482,
+      "sha": "fd46532c499388769ee4c67a3eaf2e61150eae85"
+    },
+    {
+      "path": "assets/demos/media-validation.json",
+      "size": 2569,
+      "sha": "49a88f08e99760d5618e4493ee6198b5d2c19c3b"
+    },
+    {
+      "path": "assets/demos/portrait-layouts.webp",
+      "size": 30846,
+      "sha": "c2ec43f6b51d52cdc133b6692c95a3547fa16198"
+    },
+    {
+      "path": "assets/fonts/NotoSansMono.ttf",
+      "size": 1708408,
+      "sha": "07ecc66508b893f34f09d20951039ac9c136f3b5"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC.ttf",
+      "size": 17772300,
+      "sha": "fb0637bafbcd804fe32152370a1225990745b4bc"
+    },
+    {
+      "path": "assets/fonts/notosansmono-OFL.txt",
+      "size": 4396,
+      "sha": "6843f31878c9945e1e71e1baa275546b4eefead8"
+    },
+    {
+      "path": "assets/fonts/notosanssc-OFL.txt",
+      "size": 4388,
+      "sha": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+    },
+    {
+      "path": "assets/fonts/sources.json",
+      "size": 1309,
+      "sha": "46502b06786a47dec1a5a3f7e6c113bc930c6b55"
+    },
+    {
+      "path": "assets/tutorials/01-workflow.png",
+      "size": 185491,
+      "sha": "85fcc7b21cabdb9432ab54e0f09a407292ae56c9"
+    },
+    {
+      "path": "assets/tutorials/01-workflow.svg",
+      "size": 4786,
+      "sha": "c9c31c35a9c5456d870c80a6143ab0d9c10dcc72"
+    },
+    {
+      "path": "assets/tutorials/02-style-map.png",
+      "size": 205772,
+      "sha": "930a288e5ef8e176dfc52321aa34cb6bba62a3c0"
+    },
+    {
+      "path": "assets/tutorials/02-style-map.svg",
+      "size": 5174,
+      "sha": "6cbf5079e5dc7cdfcc9699b1fb26d62aebad26e5"
+    },
+    {
+      "path": "assets/tutorials/03-continuity.png",
+      "size": 393696,
+      "sha": "5a769c94a1f3bf011f3164dbdd0221b783d5a93d"
+    },
+    {
+      "path": "assets/tutorials/03-continuity.svg",
+      "size": 3113,
+      "sha": "a960f1808b827fffa385e2bff59774e5af2c419f"
+    },
+    {
+      "path": "assets/tutorials/04-demo-preview.png",
+      "size": 85765,
+      "sha": "d71bb20aa0f60561657964fa02be918ba8957a3d"
+    },
+    {
+      "path": "assets/tutorials/frames/continuity-1.png",
+      "size": 136109,
+      "sha": "66c28edf0f0761b3dac22a8d25b62c843334e10b"
+    },
+    {
+      "path": "assets/tutorials/frames/continuity-2.png",
+      "size": 111152,
+      "sha": "33bfc802d29caedb01c3aabe3978fbc3b6243f35"
+    },
+    {
+      "path": "assets/tutorials/frames/continuity-3.png",
+      "size": 111541,
+      "sha": "43c7f27fb63328a8670b5bc50c542105056f1052"
+    },
+    {
+      "path": "assets/tutorials/frames/continuity-4.png",
+      "size": 108438,
+      "sha": "2d5dd94cbf321d122175d95346cfdddb1c0e5f29"
+    },
+    {
+      "path": "assets/tutorials/handdrawn-demo.gif",
+      "size": 2262706,
+      "sha": "9ed8898fc27fa8e5a85a071cb7dce940a0b259e4"
+    },
+    {
+      "path": "assets/tutorials/templates.png",
+      "size": 275906,
+      "sha": "de6a53f6c5caa49f3fd489609e9aca831002fb00"
+    },
+    {
+      "path": "docs/03-A-validation-1.1.0.json",
+      "size": 5060,
+      "sha": "abc9ea42198a40a760b26df83325dd8a41fd2ce0"
+    },
+    {
+      "path": "docs/03-A-validation.json",
+      "size": 5961,
+      "sha": "12db8c12cf08eff0d13b411cf58a82a96b5696e5"
+    },
+    {
+      "path": "docs/adaptation-validation-2026-10-03.md",
+      "size": 2592,
+      "sha": "8fed60bb2ccc1f7cc087537b54b0d18997947086"
+    },
+    {
+      "path": "docs/capability-matrix.md",
+      "size": 14259,
+      "sha": "ee8771f5691a8c0b778d15b1419fa6cde3ffdf4f"
+    },
+    {
+      "path": "docs/compatibility-3.14.md",
+      "size": 5658,
+      "sha": "cd640db8a1190e469a65e812e39b985632925186"
+    },
+    {
+      "path": "docs/editorial-music-3.12.json",
+      "size": 5145,
+      "sha": "4024c455bc89b8783f3c7bb5810cbb49e38f1fa1"
+    },
+    {
+      "path": "docs/editorial-music-3.12.md",
+      "size": 3595,
+      "sha": "42b7abca6b0fa5a212af769a8fe5251f22c8ef2e"
+    },
+    {
+      "path": "docs/output-signature-3.14.1.md",
+      "size": 2421,
+      "sha": "a2a9ae492cac10c49cc232f2430914ab9180216f"
+    },
+    {
+      "path": "docs/portrait-3.7-validation.json",
+      "size": 4278,
+      "sha": "bcade502b0224b448a5f3930144e9abde9058915"
+    },
+    {
+      "path": "docs/quality-upgrade-3.13.md",
+      "size": 4193,
+      "sha": "b5613ff1d8886b686233d923ff85d9908df6a46d"
+    },
+    {
+      "path": "docs/raster-audit-rc1.md",
+      "size": 2780,
+      "sha": "e68c814d2d04a8098c1d1e9d9714e4db84c4ac42"
+    },
+    {
+      "path": "docs/template-adaptation-3.6.md",
+      "size": 4371,
+      "sha": "fac8083695c026e88f5efae6b264a6518b3e71b6"
+    },
+    {
+      "path": "docs/template-auto-selection-3.10.json",
+      "size": 1185,
+      "sha": "19563a62237c8fef669d07ea89d313117c8981fc"
+    },
+    {
+      "path": "docs/template-auto-selection-3.10.md",
+      "size": 4672,
+      "sha": "624e56fa71e685aca53ce22757d6795ea3f3dab3"
+    },
+    {
+      "path": "docs/template-intake-validation-2026-10-03.md",
+      "size": 1886,
+      "sha": "0f5baa14a2fe8cdeeb2052b1ada661ee50c4d84c"
+    },
+    {
+      "path": "docs/template-stress-3.9.json",
+      "size": 157554,
+      "sha": "0bf993120c27b0767a2634a2ce8679ac63ecedf8"
+    },
+    {
+      "path": "docs/template-stress-3.9.md",
+      "size": 6394,
+      "sha": "71d1e1b4e73fd7f1cd62028b029abc93d0610605"
+    },
+    {
+      "path": "docs/validation.md",
+      "size": 27613,
+      "sha": "bc171095d91aba2e995ed7ac2187abd6c2468346"
+    },
+    {
+      "path": "docs/vibrant-color-3.11.json",
+      "size": 1967,
+      "sha": "e7bb33bcda5af1d4bae298474c5032e114ceeafd"
+    },
+    {
+      "path": "docs/vibrant-color-3.11.md",
+      "size": 3970,
+      "sha": "2369a845798841988d8c8271f3fd048860c2aa7a"
+    },
+    {
+      "path": "examples/README.md",
+      "size": 2017,
+      "sha": "791fb3fc2217f0413036b553b3cba5388eac4e1a"
+    },
+    {
+      "path": "examples/adaptation/01-method-introduction.brief.json",
+      "size": 3587,
+      "sha": "6f71cd1ed7819a889691dab417a3aa2aa6062a3e"
+    },
+    {
+      "path": "examples/adaptation/02-evidence-review.brief.json",
+      "size": 3485,
+      "sha": "74b015e490fb21b86b58624315b515a0a0eab2da"
+    },
+    {
+      "path": "examples/adaptation/03-incompatible-short.brief.json",
+      "size": 710,
+      "sha": "0a64d581f977eec9ef90bb15eafa71347bafee64"
+    },
+    {
+      "path": "examples/adaptation/README.md",
+      "size": 2970,
+      "sha": "e25f85432f12fa059212cf95587e493dcc8fe85b"
+    },
+    {
+      "path": "examples/adaptation/reports/01-method-introduction/report.json",
+      "size": 5850,
+      "sha": "bb5e777f20060a0510eb0ba41d335248de922e5b"
+    },
+    {
+      "path": "examples/adaptation/reports/01-method-introduction/report.md",
+      "size": 3408,
+      "sha": "db1d8ca1170c8ff1255ea0ba167fc312b846aae9"
+    },
+    {
+      "path": "examples/adaptation/reports/02-evidence-review/report.json",
+      "size": 5874,
+      "sha": "b98a49bbc07dd2c95bce5f3b9966e6afdd1edc60"
+    },
+    {
+      "path": "examples/adaptation/reports/02-evidence-review/report.md",
+      "size": 3447,
+      "sha": "51881f530afc64cd5bd6ac12332779a71cddaa9a"
+    },
+    {
+      "path": "examples/adaptation/reports/03-incompatible-short/report.json",
+      "size": 2651,
+      "sha": "0c82858372ed2fc0e0afe277101925aabf84d582"
+    },
+    {
+      "path": "examples/adaptation/reports/03-incompatible-short/report.md",
+      "size": 1747,
+      "sha": "f7794c285813c709a743f4fe5d45c5517522b0ff"
+    },
+    {
+      "path": "examples/audio-composition.py",
+      "size": 1642,
+      "sha": "0006a074f8b98c4db9cc85249cfd97670dcfd1e2"
+    },
+    {
+      "path": "examples/card-layout-scenes.js",
+      "size": 45918,
+      "sha": "b0ee0cd129eadf0fed10e13b3b1086419df1a0f8"
+    },
+    {
+      "path": "examples/gallery/README.md",
+      "size": 628,
+      "sha": "c4119bd70257abf4c12bcf90a8e584fef906410c"
+    },
+    {
+      "path": "examples/gallery/catalog.json",
+      "size": 2594,
+      "sha": "400c7642af20265144cc1cbad8635e85b0dea1b2"
+    },
+    {
+      "path": "examples/gallery/index.html",
+      "size": 10399,
+      "sha": "996a1647fe351025bb3a6a7da153b67365b90088"
+    },
+    {
+      "path": "examples/handdrawn-continuity.html",
+      "size": 12925,
+      "sha": "739f58b53c054070e24d190e7bd367ce06638a4e"
+    },
+    {
+      "path": "examples/portrait-catalog/README.md",
+      "size": 900,
+      "sha": "30d095fde8044b3b50cf1f78c36ee3b11dbb5e13"
+    },
+    {
+      "path": "examples/portrait-catalog/demo-loop.js",
+      "size": 1143,
+      "sha": "221121ccef4c5169228a2f4474abf0d16baa87f6"
+    },
+    {
+      "path": "examples/portrait-catalog/demo-media.js",
+      "size": 1315,
+      "sha": "3466ede5510f28b1f896eca214faf5a8e57cc1c8"
+    },
+    {
+      "path": "examples/portrait-catalog/evidence.svg",
+      "size": 918,
+      "sha": "7f8f10ba28b631b216259e19d920e5f346d99bef"
+    },
+    {
+      "path": "examples/portrait-catalog/index.html",
+      "size": 6216,
+      "sha": "99177c9af26e9da1a1b4ccaf2656db57192d817f"
+    },
+    {
+      "path": "examples/portrait-catalog/noise.svg",
+      "size": 181,
+      "sha": "35082daf07f0d1e814248504e6a27eec602ad943"
+    },
+    {
+      "path": "examples/portrait-catalog/presenter.svg",
+      "size": 344,
+      "sha": "339da41eaac5f465ad451f05e39f0625f844aecf"
+    },
+    {
+      "path": "examples/portrait-shell.html",
+      "size": 4593,
+      "sha": "1fc9172d9d74df0d2ee35a692594cc93510065c1"
+    },
+    {
+      "path": "examples/showcase-scenes.js",
+      "size": 73791,
+      "sha": "939a9f75768bbe6ca3b8701012e9631dcac1d36e"
+    },
+    {
+      "path": "examples/silent-demo.html",
+      "size": 1131,
+      "sha": "f4b0e3a2d0cf9ec97ec02f7655bedf3ef6658106"
+    },
+    {
+      "path": "examples/subtitle-groups.py",
+      "size": 542,
+      "sha": "cc26f606a34d9a47713038b9ac323c17e540e1a7"
+    },
+    {
+      "path": "examples/subtitle-options.html",
+      "size": 1335,
+      "sha": "b0736facd03add1e7cf8ecd25c2b4aa9390b002f"
+    },
+    {
+      "path": "examples/vivid-sticker-preview/README.md",
+      "size": 307,
+      "sha": "bae40cd24cd44bbcc32f00da5b306d126a2576d4"
+    },
+    {
+      "path": "examples/vivid-sticker-preview/giver.svg",
+      "size": 925,
+      "sha": "9b8b3fe2dd7122518bd3b701424d72a2edc1af47"
+    },
+    {
+      "path": "examples/vivid-sticker-preview/notebook.svg",
+      "size": 488,
+      "sha": "ef1204342ba911cd3c45d7e260961cf1230663c4"
+    },
+    {
+      "path": "examples/vivid-sticker-preview/receiver.svg",
+      "size": 1009,
+      "sha": "9a83466689def9bfc8782e16d56ae34bd41dd374"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 1183,
+      "sha": "02b5aa17a9f9681637df4c1f82a66afee06e712c"
+    },
+    {
+      "path": "package.json",
+      "size": 489,
+      "sha": "c847f352a96f70ce9a22cf06500200f73728bb58"
+    },
+    {
+      "path": "packs/anim3/README.md",
+      "size": 7388,
+      "sha": "ada6c4ef61488706fea35224a6bcd29a3095b783"
+    },
+    {
+      "path": "packs/anim3/SOURCE_AUDIT.md",
+      "size": 5277,
+      "sha": "1760253f224797f3643bde5f45c5f4aba5f92a97"
+    },
+    {
+      "path": "packs/anim3/audio-source.py",
+      "size": 22204,
+      "sha": "0b54eb2dc6900c901aec2ee61dd3a50fb1ccf8a5"
+    },
+    {
+      "path": "packs/anim3/audio_timeline.json",
+      "size": 2810,
+      "sha": "a30cbc9d7f34f6d2235ff08528b02f44f2276858"
+    },
+    {
+      "path": "packs/anim3/index.html",
+      "size": 2274,
+      "sha": "0b5bd339561329b5b8e51e33ffa1ad4dd1184356"
+    },
+    {
+      "path": "packs/anim3/lib.js",
+      "size": 14321,
+      "sha": "e67404e142bd1361fbe8568d1c1a475d07b823a7"
+    },
+    {
+      "path": "packs/anim3/main-source.js",
+      "size": 2941,
+      "sha": "367aca101e6c2cbbff8cab697f4f724e7afb7628"
+    },
+    {
+      "path": "packs/anim3/manifest.json",
+      "size": 97748,
+      "sha": "136a0eedd6d25b8c2a331a0c427449e021042ece"
+    },
+    {
+      "path": "packs/anim3/scenes.js",
+      "size": 48658,
+      "sha": "ef84b80859a051ee42a6f0e0b7f1e8e1c3239900"
+    },
+    {
+      "path": "packs/anim3/style.css",
+      "size": 4577,
+      "sha": "acc968856ca440784336f7ed21bcf7aff6a75180"
+    },
+    {
+      "path": "packs/anim4/README.md",
+      "size": 6967,
+      "sha": "fafeb7279e4a04a8273a1ab94ca6ab38ef92e7c6"
+    },
+    {
+      "path": "packs/anim4/SOURCE_AUDIT.md",
+      "size": 4494,
+      "sha": "29a120ea128a5afdf6f027567cd583659d9af737"
+    },
+    {
+      "path": "packs/anim4/audio.py",
+      "size": 25732,
+      "sha": "e39190ddbc2bdbab1609892b5a35773f38c9c1ae"
+    },
+    {
+      "path": "packs/anim4/audio_timeline.json",
+      "size": 27603,
+      "sha": "e92999e29c9fa2e6eb51b595e3d072ece63dc698"
+    },
+    {
+      "path": "packs/anim4/index.html",
+      "size": 2289,
+      "sha": "4c179ddbf584b11be6ba7438d8bb89b6b6a51bbe"
+    },
+    {
+      "path": "packs/anim4/lib.js",
+      "size": 8128,
+      "sha": "63cd2122f5a5465b6655782a2a0a60b9612895ef"
+    },
+    {
+      "path": "packs/anim4/main.js",
+      "size": 3085,
+      "sha": "9489a554723940a377b6d886d315d5481a1b0379"
+    },
+    {
+      "path": "packs/anim4/manifest.json",
+      "size": 98922,
+      "sha": "d83ef0ecf62a08a52cb1b7f62db9d86c982b8aec"
+    },
+    {
+      "path": "packs/anim4/prepare_media.py",
+      "size": 11261,
+      "sha": "6a2e493a9ddba1d47c47231ff8f19fed9f8a9353"
+    },
+    {
+      "path": "packs/anim4/scenes.js",
+      "size": 73695,
+      "sha": "8f178f4c5d0e073a025f8e70fb7215b55b5ccdf1"
+    },
+    {
+      "path": "packs/anim4/sfx.json",
+      "size": 7707,
+      "sha": "066545b18e115ca3b1d990232cb95fb2d0bcb6a6"
+    },
+    {
+      "path": "packs/anim4/style.css",
+      "size": 4649,
+      "sha": "fb6c5d6b7e754907af1fb9d507953246bdf3f2af"
+    },
+    {
+      "path": "packs/anim4/text-inventory.json",
+      "size": 29802,
+      "sha": "69a13496c06de08f1f6f98a24a48c792139bb354"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/README.md",
+      "size": 3780,
+      "sha": "2294009a8ba93e96fc4419b1fd1cdaa9a0061c66"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/audio_timeline.json",
+      "size": 3332,
+      "sha": "e094be784c0218e9b80ad7de67da569747b030fa"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/manifest.json",
+      "size": 36018,
+      "sha": "c91ed348990faa3f75be6cbfe05380084a82cf3a"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/units/claim-into-container.js",
+      "size": 6245,
+      "sha": "0e8af38ede916b2276ecfd7e196e5da5a9514f52"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/units/decompose-and-consolidate.js",
+      "size": 6092,
+      "sha": "4bd9174b8c7d7cb060a1c2d4ba8539f91fb21ddb"
+    },
+    {
+      "path": "packs/classic-performance/0.2.1-candidate/units/evidence-focus.js",
+      "size": 5175,
+      "sha": "891b0599523d72f193c624f8ba138e248151f0c9"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/README.md",
+      "size": 4069,
+      "sha": "f43897c0b778c2c3379c4fabf9db503cbc6714d0"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/audio_timeline.json",
+      "size": 3332,
+      "sha": "e094be784c0218e9b80ad7de67da569747b030fa"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/manifest.json",
+      "size": 36712,
+      "sha": "95cff0b957a5f334358cb7033e3d896f65e0f855"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/review.json",
+      "size": 1609,
+      "sha": "24a38ab56ae79a074e125bc60bf2c4565b5c5ead"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/units/claim-into-container.js",
+      "size": 6245,
+      "sha": "0e8af38ede916b2276ecfd7e196e5da5a9514f52"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/units/decompose-and-consolidate.js",
+      "size": 6092,
+      "sha": "4bd9174b8c7d7cb060a1c2d4ba8539f91fb21ddb"
+    },
+    {
+      "path": "packs/classic-performance/1.0.0/units/evidence-focus.js",
+      "size": 5175,
+      "sha": "891b0599523d72f193c624f8ba138e248151f0c9"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/README.md",
+      "size": 846,
+      "sha": "e0d9a886feff2d8d3f878a6e7ea752233fd77d3b"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/audio_timeline.json",
+      "size": 3332,
+      "sha": "e094be784c0218e9b80ad7de67da569747b030fa"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/manifest.json",
+      "size": 37793,
+      "sha": "c58ea54a2cc31a8de325811258a4a5d38f1750da"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/review.json",
+      "size": 798,
+      "sha": "806f400db17a57110f13b3db48d535a3b929f897"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/units/claim-into-container.js",
+      "size": 6245,
+      "sha": "0e8af38ede916b2276ecfd7e196e5da5a9514f52"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/units/decompose-and-consolidate.js",
+      "size": 6092,
+      "sha": "4bd9174b8c7d7cb060a1c2d4ba8539f91fb21ddb"
+    },
+    {
+      "path": "packs/classic-performance/1.1.0-candidate/units/evidence-focus.js",
+      "size": 5175,
+      "sha": "891b0599523d72f193c624f8ba138e248151f0c9"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/README.md",
+      "size": 1543,
+      "sha": "40eb85497e8090b809c9f25ee92315b7c532f10c"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/audio_timeline.json",
+      "size": 3332,
+      "sha": "e094be784c0218e9b80ad7de67da569747b030fa"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/manifest.json",
+      "size": 38208,
+      "sha": "c5dd283f06c131933373171900bdcb738b696289"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/portrait.js",
+      "size": 14509,
+      "sha": "db1de8a5ea0b2d5a0ee82b63af5ae738a9949b57"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/review.json",
+      "size": 798,
+      "sha": "806f400db17a57110f13b3db48d535a3b929f897"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/units/claim-into-container.js",
+      "size": 6245,
+      "sha": "0e8af38ede916b2276ecfd7e196e5da5a9514f52"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/units/decompose-and-consolidate.js",
+      "size": 6092,
+      "sha": "4bd9174b8c7d7cb060a1c2d4ba8539f91fb21ddb"
+    },
+    {
+      "path": "packs/classic-performance/1.1.1-candidate/units/evidence-focus.js",
+      "size": 5175,
+      "sha": "891b0599523d72f193c624f8ba138e248151f0c9"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/README.md",
+      "size": 4154,
+      "sha": "846dd28b9a2379b448fe515752f9793658d10683"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/audio_timeline.json",
+      "size": 3662,
+      "sha": "dd6a74c854bcd2130f977f722e3e196647d1577a"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/manifest.json",
+      "size": 49896,
+      "sha": "d9e6a803e54ea796e9511ab5d3d809e26234da4a"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/units/claim-into-container.js",
+      "size": 8963,
+      "sha": "cae9aac7d620b37b1c9a80ba5efbc5c5f42482ee"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/units/decompose-and-consolidate.js",
+      "size": 8518,
+      "sha": "41ee3d06accbfca0f5b78f6dc68743763c6c4e00"
+    },
+    {
+      "path": "packs/continuous-performance/0.2.1-candidate/units/simplify-plan-disrupt.js",
+      "size": 8829,
+      "sha": "08e375aab7a975bf346487738b98bd7abc949e47"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/README.md",
+      "size": 4119,
+      "sha": "51d2547bffcf9f389775b275d1c9279e75dc45ff"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/audio_timeline.json",
+      "size": 3662,
+      "sha": "dd6a74c854bcd2130f977f722e3e196647d1577a"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/manifest.json",
+      "size": 33908,
+      "sha": "e9a7b5731ea21340696ef709363ab5f2ca402b0f"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/review.json",
+      "size": 1587,
+      "sha": "211e42e578e337e46c2ff15828d027a09cade2e8"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/units/claim-into-container.js",
+      "size": 8963,
+      "sha": "cae9aac7d620b37b1c9a80ba5efbc5c5f42482ee"
+    },
+    {
+      "path": "packs/continuous-performance/1.0.0/units/decompose-and-consolidate.js",
+      "size": 8518,
+      "sha": "41ee3d06accbfca0f5b78f6dc68743763c6c4e00"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/README.md",
+      "size": 849,
+      "sha": "d9c2bb30e007ea5e8fdd38c9c271c5ba472809fd"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/audio_timeline.json",
+      "size": 3662,
+      "sha": "dd6a74c854bcd2130f977f722e3e196647d1577a"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/manifest.json",
+      "size": 34989,
+      "sha": "d5802e3d0de6ec1bc866d4877ebee52b0a7cfbf2"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/review.json",
+      "size": 798,
+      "sha": "4dc437b1936ada2a19b9adf71a48710fa015ba31"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/units/claim-into-container.js",
+      "size": 8963,
+      "sha": "cae9aac7d620b37b1c9a80ba5efbc5c5f42482ee"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.0-candidate/units/decompose-and-consolidate.js",
+      "size": 8518,
+      "sha": "41ee3d06accbfca0f5b78f6dc68743763c6c4e00"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/README.md",
+      "size": 1546,
+      "sha": "0398f0f310de275bf59d6ac3dae341bb77e24d51"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/audio_timeline.json",
+      "size": 3662,
+      "sha": "dd6a74c854bcd2130f977f722e3e196647d1577a"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/manifest.json",
+      "size": 35404,
+      "sha": "5a39c98536487b1526fcd9661595e1a70d2d4fcd"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/portrait.js",
+      "size": 14509,
+      "sha": "db1de8a5ea0b2d5a0ee82b63af5ae738a9949b57"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/review.json",
+      "size": 798,
+      "sha": "4dc437b1936ada2a19b9adf71a48710fa015ba31"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/style.css",
+      "size": 4317,
+      "sha": "962924b05be7c89eb82fcb5e593f823037eace98"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/units/claim-into-container.js",
+      "size": 8963,
+      "sha": "cae9aac7d620b37b1c9a80ba5efbc5c5f42482ee"
+    },
+    {
+      "path": "packs/continuous-performance/1.1.1-candidate/units/decompose-and-consolidate.js",
+      "size": 8518,
+      "sha": "41ee3d06accbfca0f5b78f6dc68743763c6c4e00"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/README.md",
+      "size": 3623,
+      "sha": "bd208e820ee90655f7bf64c2502921fb3493223e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/SOURCE_AUDIT.md",
+      "size": 4494,
+      "sha": "29a120ea128a5afdf6f027567cd583659d9af737"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/apply-layout.mjs",
+      "size": 4059,
+      "sha": "35c478af88370ce7d193b0a0f929edd062d85094"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/audio.py",
+      "size": 25732,
+      "sha": "e39190ddbc2bdbab1609892b5a35773f38c9c1ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/audio_timeline.json",
+      "size": 27603,
+      "sha": "e92999e29c9fa2e6eb51b595e3d072ece63dc698"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/index.html",
+      "size": 2289,
+      "sha": "4c179ddbf584b11be6ba7438d8bb89b6b6a51bbe"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/lib.js",
+      "size": 8128,
+      "sha": "63cd2122f5a5465b6655782a2a0a60b9612895ef"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/main.js",
+      "size": 3085,
+      "sha": "9489a554723940a377b6d886d315d5481a1b0379"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/manifest.json",
+      "size": 101381,
+      "sha": "1921295c8cd9e476aa6016260985eb288c72a80f"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/portrait.css",
+      "size": 853,
+      "sha": "b590db794c3ba658817f8bf479f6191d70b94ea1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/prepare_media.py",
+      "size": 11258,
+      "sha": "76370a0849aca128d3545b689b9ff295dcb772a9"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/scenes.js",
+      "size": 73695,
+      "sha": "8f178f4c5d0e073a025f8e70fb7215b55b5ccdf1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/sfx.json",
+      "size": 7707,
+      "sha": "066545b18e115ca3b1d990232cb95fb2d0bcb6a6"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/showcase-layout.js",
+      "size": 9613,
+      "sha": "ec99b5199f7fbe63a9335d0f488bc16366da34de"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/style.css",
+      "size": 4649,
+      "sha": "fb6c5d6b7e754907af1fb9d507953246bdf3f2af"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.0-candidate/text-inventory.json",
+      "size": 29802,
+      "sha": "69a13496c06de08f1f6f98a24a48c792139bb354"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/README.md",
+      "size": 4368,
+      "sha": "ea2c720a7fa26a693bb219791597b629b57ecdda"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/SOURCE_AUDIT.md",
+      "size": 4494,
+      "sha": "29a120ea128a5afdf6f027567cd583659d9af737"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/apply-layout.mjs",
+      "size": 4059,
+      "sha": "35c478af88370ce7d193b0a0f929edd062d85094"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/audio.py",
+      "size": 25732,
+      "sha": "e39190ddbc2bdbab1609892b5a35773f38c9c1ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/audio_timeline.json",
+      "size": 27603,
+      "sha": "e92999e29c9fa2e6eb51b595e3d072ece63dc698"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/color_management.py",
+      "size": 5531,
+      "sha": "468481397e55967a2986980f2ad89580f7acb8cf"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/index.html",
+      "size": 2289,
+      "sha": "4c179ddbf584b11be6ba7438d8bb89b6b6a51bbe"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/lib.js",
+      "size": 8128,
+      "sha": "63cd2122f5a5465b6655782a2a0a60b9612895ef"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/main.js",
+      "size": 3085,
+      "sha": "9489a554723940a377b6d886d315d5481a1b0379"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/manifest.json",
+      "size": 101684,
+      "sha": "b8557600456f8a71c93141adc657f76c4f8eb3b5"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/portrait.css",
+      "size": 853,
+      "sha": "b590db794c3ba658817f8bf479f6191d70b94ea1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/prep_wall.py",
+      "size": 3081,
+      "sha": "9a1dc55fee03389ec89198d188e7f69991284dc1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/prepare_media.py",
+      "size": 11499,
+      "sha": "316c06490902fc6301c673fe6f63ef6070b2874e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/scenes.js",
+      "size": 73695,
+      "sha": "8f178f4c5d0e073a025f8e70fb7215b55b5ccdf1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/sfx.json",
+      "size": 7707,
+      "sha": "066545b18e115ca3b1d990232cb95fb2d0bcb6a6"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/showcase-layout.js",
+      "size": 9613,
+      "sha": "ec99b5199f7fbe63a9335d0f488bc16366da34de"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/style.css",
+      "size": 4649,
+      "sha": "fb6c5d6b7e754907af1fb9d507953246bdf3f2af"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.1.1-candidate/text-inventory.json",
+      "size": 29802,
+      "sha": "69a13496c06de08f1f6f98a24a48c792139bb354"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/README.md",
+      "size": 862,
+      "sha": "f898234bba1d7580d1f32cb837acc070c41a7ca8"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/SOURCE_AUDIT.md",
+      "size": 4494,
+      "sha": "29a120ea128a5afdf6f027567cd583659d9af737"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/apply-layout.mjs",
+      "size": 4059,
+      "sha": "35c478af88370ce7d193b0a0f929edd062d85094"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/audio.py",
+      "size": 25732,
+      "sha": "e39190ddbc2bdbab1609892b5a35773f38c9c1ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/audio_timeline.json",
+      "size": 27603,
+      "sha": "e92999e29c9fa2e6eb51b595e3d072ece63dc698"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/color_management.py",
+      "size": 5531,
+      "sha": "468481397e55967a2986980f2ad89580f7acb8cf"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/index.html",
+      "size": 2289,
+      "sha": "4c179ddbf584b11be6ba7438d8bb89b6b6a51bbe"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/lib.js",
+      "size": 8128,
+      "sha": "63cd2122f5a5465b6655782a2a0a60b9612895ef"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/main.js",
+      "size": 3085,
+      "sha": "9489a554723940a377b6d886d315d5481a1b0379"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/manifest.json",
+      "size": 102291,
+      "sha": "8b2deb59c0490a3b144f26bcb3c512e77011c62c"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/portrait.css",
+      "size": 853,
+      "sha": "b590db794c3ba658817f8bf479f6191d70b94ea1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/prep_wall.py",
+      "size": 3081,
+      "sha": "9a1dc55fee03389ec89198d188e7f69991284dc1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/prepare_media.py",
+      "size": 11499,
+      "sha": "316c06490902fc6301c673fe6f63ef6070b2874e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/review.json",
+      "size": 808,
+      "sha": "cadb3043eb15e3b163569a37018104d6fd0fad1e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/scenes.js",
+      "size": 73695,
+      "sha": "8f178f4c5d0e073a025f8e70fb7215b55b5ccdf1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/sfx.json",
+      "size": 7707,
+      "sha": "066545b18e115ca3b1d990232cb95fb2d0bcb6a6"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/showcase-layout.js",
+      "size": 9613,
+      "sha": "ec99b5199f7fbe63a9335d0f488bc16366da34de"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/style.css",
+      "size": 4649,
+      "sha": "fb6c5d6b7e754907af1fb9d507953246bdf3f2af"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.2.0-candidate/text-inventory.json",
+      "size": 29802,
+      "sha": "69a13496c06de08f1f6f98a24a48c792139bb354"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/README.md",
+      "size": 728,
+      "sha": "1b34646391fc1e43598b23ddacee7ac78aba7eae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/SOURCE_AUDIT.md",
+      "size": 4494,
+      "sha": "29a120ea128a5afdf6f027567cd583659d9af737"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/apply-layout.mjs",
+      "size": 4059,
+      "sha": "35c478af88370ce7d193b0a0f929edd062d85094"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/audio.py",
+      "size": 25732,
+      "sha": "e39190ddbc2bdbab1609892b5a35773f38c9c1ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/audio_timeline.json",
+      "size": 27603,
+      "sha": "e92999e29c9fa2e6eb51b595e3d072ece63dc698"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/color_management.py",
+      "size": 5531,
+      "sha": "468481397e55967a2986980f2ad89580f7acb8cf"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/index.html",
+      "size": 2289,
+      "sha": "4c179ddbf584b11be6ba7438d8bb89b6b6a51bbe"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/lib.js",
+      "size": 8128,
+      "sha": "63cd2122f5a5465b6655782a2a0a60b9612895ef"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/main.js",
+      "size": 3085,
+      "sha": "9489a554723940a377b6d886d315d5481a1b0379"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/manifest.json",
+      "size": 148965,
+      "sha": "b95da27c35628ffde857bbada30e9c12d7c9db72"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/portrait.css",
+      "size": 853,
+      "sha": "b590db794c3ba658817f8bf479f6191d70b94ea1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/prep_wall.py",
+      "size": 3081,
+      "sha": "9a1dc55fee03389ec89198d188e7f69991284dc1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/prepare_media.py",
+      "size": 11499,
+      "sha": "316c06490902fc6301c673fe6f63ef6070b2874e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/review.json",
+      "size": 341,
+      "sha": "c3f83c2010c4d1b254b6f80672bc835eab7ecedb"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/scenes.js",
+      "size": 75853,
+      "sha": "964fc2b28e289bc2ecff8ba5870f04d74b32590f"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/sfx.json",
+      "size": 7707,
+      "sha": "066545b18e115ca3b1d990232cb95fb2d0bcb6a6"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/showcase-layout.js",
+      "size": 10022,
+      "sha": "98946a23db79daa3ad7d99e2e46d11700fcae110"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/style.css",
+      "size": 4649,
+      "sha": "fb6c5d6b7e754907af1fb9d507953246bdf3f2af"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.0-candidate/text-inventory.json",
+      "size": 29802,
+      "sha": "69a13496c06de08f1f6f98a24a48c792139bb354"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/README.md",
+      "size": 728,
+      "sha": "f174993fb842413fad24b4402fc4121640913139"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/SOURCE_AUDIT.md",
+      "size": 4494,
+      "sha": "29a120ea128a5afdf6f027567cd583659d9af737"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/apply-layout.mjs",
+      "size": 4059,
+      "sha": "35c478af88370ce7d193b0a0f929edd062d85094"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/audio.py",
+      "size": 25732,
+      "sha": "e39190ddbc2bdbab1609892b5a35773f38c9c1ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/audio_timeline.json",
+      "size": 27603,
+      "sha": "e92999e29c9fa2e6eb51b595e3d072ece63dc698"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/color_management.py",
+      "size": 5531,
+      "sha": "468481397e55967a2986980f2ad89580f7acb8cf"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/index.html",
+      "size": 2289,
+      "sha": "4c179ddbf584b11be6ba7438d8bb89b6b6a51bbe"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/lib.js",
+      "size": 8128,
+      "sha": "63cd2122f5a5465b6655782a2a0a60b9612895ef"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/main.js",
+      "size": 3085,
+      "sha": "9489a554723940a377b6d886d315d5481a1b0379"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/manifest.json",
+      "size": 148845,
+      "sha": "2115b35cefa996e88849fcb35149d769a1873d7e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/portrait.css",
+      "size": 853,
+      "sha": "b590db794c3ba658817f8bf479f6191d70b94ea1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/prep_wall.py",
+      "size": 3081,
+      "sha": "9a1dc55fee03389ec89198d188e7f69991284dc1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/prepare_media.py",
+      "size": 11499,
+      "sha": "316c06490902fc6301c673fe6f63ef6070b2874e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/review.json",
+      "size": 341,
+      "sha": "6f61fc51344296cbaa4127405483839dc31d58ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/scenes.js",
+      "size": 75853,
+      "sha": "964fc2b28e289bc2ecff8ba5870f04d74b32590f"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/sfx.json",
+      "size": 7707,
+      "sha": "066545b18e115ca3b1d990232cb95fb2d0bcb6a6"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/showcase-layout.js",
+      "size": 10022,
+      "sha": "98946a23db79daa3ad7d99e2e46d11700fcae110"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/style.css",
+      "size": 4649,
+      "sha": "fb6c5d6b7e754907af1fb9d507953246bdf3f2af"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.1-candidate/text-inventory.json",
+      "size": 29802,
+      "sha": "69a13496c06de08f1f6f98a24a48c792139bb354"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/README.md",
+      "size": 1546,
+      "sha": "f7476d86de604a80efdc1031250ec2d105cb1a60"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/SOURCE_AUDIT.md",
+      "size": 4494,
+      "sha": "29a120ea128a5afdf6f027567cd583659d9af737"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/apply-layout.mjs",
+      "size": 4059,
+      "sha": "35c478af88370ce7d193b0a0f929edd062d85094"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/audio.py",
+      "size": 25732,
+      "sha": "e39190ddbc2bdbab1609892b5a35773f38c9c1ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/audio_timeline.json",
+      "size": 27603,
+      "sha": "e92999e29c9fa2e6eb51b595e3d072ece63dc698"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/color_management.py",
+      "size": 5531,
+      "sha": "468481397e55967a2986980f2ad89580f7acb8cf"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/index.html",
+      "size": 2289,
+      "sha": "4c179ddbf584b11be6ba7438d8bb89b6b6a51bbe"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/lib.js",
+      "size": 8128,
+      "sha": "63cd2122f5a5465b6655782a2a0a60b9612895ef"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/main.js",
+      "size": 3085,
+      "sha": "9489a554723940a377b6d886d315d5481a1b0379"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/manifest.json",
+      "size": 149284,
+      "sha": "15dc6783d684eacde3ff8e96c05c12f75bc6de3a"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/portrait.css",
+      "size": 853,
+      "sha": "b590db794c3ba658817f8bf479f6191d70b94ea1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/prep_wall.py",
+      "size": 3081,
+      "sha": "9a1dc55fee03389ec89198d188e7f69991284dc1"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/prepare_media.py",
+      "size": 11499,
+      "sha": "316c06490902fc6301c673fe6f63ef6070b2874e"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/review.json",
+      "size": 341,
+      "sha": "6f61fc51344296cbaa4127405483839dc31d58ae"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/scenes.js",
+      "size": 75853,
+      "sha": "964fc2b28e289bc2ecff8ba5870f04d74b32590f"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/sfx.json",
+      "size": 7707,
+      "sha": "066545b18e115ca3b1d990232cb95fb2d0bcb6a6"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/showcase-layout.js",
+      "size": 11012,
+      "sha": "8a3b47855f90f8c1aac51b18315d53e83d17a91a"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/style.css",
+      "size": 4649,
+      "sha": "fb6c5d6b7e754907af1fb9d507953246bdf3f2af"
+    },
+    {
+      "path": "packs/dark-3d-showcase/1.3.2-candidate/text-inventory.json",
+      "size": 29802,
+      "sha": "69a13496c06de08f1f6f98a24a48c792139bb354"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/README.md",
+      "size": 1556,
+      "sha": "7d7ab7779f8db9a46db30d36efca35bf92b0b88a"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/audio_timeline.json",
+      "size": 2894,
+      "sha": "612f3016597c05066b371a0ab06c0f24b051f2df"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/doubao_fonts.js",
+      "size": 148,
+      "sha": "df2efc860c5832f44ba9696bb5f08ea76c3e084e"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/manifest.json",
+      "size": 49999,
+      "sha": "68693456d836695d31a99e77ee6ffc26bbf1db88"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/style.css",
+      "size": 9752,
+      "sha": "81d86e7b386244cd7b323382afc22c1ee4b38a7d"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/units/fusion-success.js",
+      "size": 46165,
+      "sha": "054922131070a3516ebb8bd5ffe751c1bcc70c68"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/units/manual-agents-delivery.js",
+      "size": 48799,
+      "sha": "6ee807660950feef70826d81d07313bcd26c1714"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.1-candidate/units/three-step-chat.js",
+      "size": 49481,
+      "sha": "447aa4c36327fe395f2d6c4d6b629f15299643c9"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/README.md",
+      "size": 4032,
+      "sha": "fafc1c0e133d966760ca0894b3055705651999b4"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/audio_timeline.json",
+      "size": 2894,
+      "sha": "612f3016597c05066b371a0ab06c0f24b051f2df"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/doubao_fonts.js",
+      "size": 148,
+      "sha": "df2efc860c5832f44ba9696bb5f08ea76c3e084e"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/manifest.json",
+      "size": 52060,
+      "sha": "1c60064ed5f653f08f5e60d5790ca84d7b87fbfa"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/style.css",
+      "size": 9752,
+      "sha": "81d86e7b386244cd7b323382afc22c1ee4b38a7d"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/units/fusion-success.js",
+      "size": 49324,
+      "sha": "6ba9bbbd2d60a23cace8e6d1a12236cb389a4207"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/units/manual-agents-delivery.js",
+      "size": 51742,
+      "sha": "594a03ecf720c05d970df8334b75d0b5a919e408"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.1.2-candidate/units/three-step-chat.js",
+      "size": 52383,
+      "sha": "74a3b37e142266dc1ea3a563c052e06ef01b5a45"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/README.md",
+      "size": 1070,
+      "sha": "3213e1f76292d59a88b169cbd352236aa078e4b5"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/audio_timeline.json",
+      "size": 2894,
+      "sha": "612f3016597c05066b371a0ab06c0f24b051f2df"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/doubao_fonts.js",
+      "size": 148,
+      "sha": "df2efc860c5832f44ba9696bb5f08ea76c3e084e"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/manifest.json",
+      "size": 53214,
+      "sha": "a1332f929b109969657896368f9533005f131277"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/review.json",
+      "size": 808,
+      "sha": "50041cb752a0ee8b4babe93be457fb4e73090142"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/style.css",
+      "size": 9752,
+      "sha": "81d86e7b386244cd7b323382afc22c1ee4b38a7d"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/units/fusion-success.js",
+      "size": 49324,
+      "sha": "6ba9bbbd2d60a23cace8e6d1a12236cb389a4207"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/units/manual-agents-delivery.js",
+      "size": 51742,
+      "sha": "594a03ecf720c05d970df8334b75d0b5a919e408"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.2.0-candidate/units/three-step-chat.js",
+      "size": 52383,
+      "sha": "74a3b37e142266dc1ea3a563c052e06ef01b5a45"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/README.md",
+      "size": 613,
+      "sha": "277edd6d8c5e6090e7910ebf14abbce1758f24dd"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/audio_timeline.json",
+      "size": 2894,
+      "sha": "612f3016597c05066b371a0ab06c0f24b051f2df"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/config.js",
+      "size": 157,
+      "sha": "8b3888caaff0f30e7377275a58ccf55611fa84c4"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/doubao_fonts.js",
+      "size": 148,
+      "sha": "df2efc860c5832f44ba9696bb5f08ea76c3e084e"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/manifest.json",
+      "size": 75046,
+      "sha": "febe566292b0e4973620aa1df10ce5e7bb1213f4"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/portrait.js",
+      "size": 14253,
+      "sha": "166b121b232aea733981a8dbdf75645948422d73"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/review.json",
+      "size": 340,
+      "sha": "69b05fca49f45ca8fa68012a294e30413619b1b9"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/style.css",
+      "size": 9752,
+      "sha": "81d86e7b386244cd7b323382afc22c1ee4b38a7d"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/units/delivery-reading-complete.js",
+      "size": 52301,
+      "sha": "3513f0a83afd61edfbe177acc17d3031e9b74607"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/units/fusion-success.js",
+      "size": 49324,
+      "sha": "6ba9bbbd2d60a23cace8e6d1a12236cb389a4207"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/units/manual-agents-delivery.js",
+      "size": 51742,
+      "sha": "594a03ecf720c05d970df8334b75d0b5a919e408"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.0-candidate/units/three-step-chat.js",
+      "size": 52383,
+      "sha": "74a3b37e142266dc1ea3a563c052e06ef01b5a45"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/README.md",
+      "size": 1590,
+      "sha": "dac14b2fd507bd87745aca04be73c6a85de677b5"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/audio_timeline.json",
+      "size": 2894,
+      "sha": "612f3016597c05066b371a0ab06c0f24b051f2df"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/config.js",
+      "size": 157,
+      "sha": "8b3888caaff0f30e7377275a58ccf55611fa84c4"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/doubao_fonts.js",
+      "size": 148,
+      "sha": "df2efc860c5832f44ba9696bb5f08ea76c3e084e"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/manifest.json",
+      "size": 75461,
+      "sha": "c6e639870fc18e69ab545a955fd712b415bb46d3"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/portrait.js",
+      "size": 14609,
+      "sha": "0f0e5ecb57921bbe3273529a2c6afbd66de79a9b"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/review.json",
+      "size": 340,
+      "sha": "69b05fca49f45ca8fa68012a294e30413619b1b9"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/style.css",
+      "size": 9752,
+      "sha": "81d86e7b386244cd7b323382afc22c1ee4b38a7d"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/units/delivery-reading-complete.js",
+      "size": 52301,
+      "sha": "3513f0a83afd61edfbe177acc17d3031e9b74607"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/units/fusion-success.js",
+      "size": 49324,
+      "sha": "6ba9bbbd2d60a23cace8e6d1a12236cb389a4207"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/units/manual-agents-delivery.js",
+      "size": 51742,
+      "sha": "594a03ecf720c05d970df8334b75d0b5a919e408"
+    },
+    {
+      "path": "packs/doubao-console-performance/0.3.1-candidate/units/three-step-chat.js",
+      "size": 52383,
+      "sha": "74a3b37e142266dc1ea3a563c052e06ef01b5a45"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/README.md",
+      "size": 2863,
+      "sha": "629c77fe2885e6ee83dacee6ab9238c48b2c47a5"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/audio_timeline.json",
+      "size": 3667,
+      "sha": "d19ff8fb8a4e1e03ef2e7bd537c8e3afbd77b619"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/manifest.json",
+      "size": 39010,
+      "sha": "6cb41f9b6279ba735f5437a25c058f44a18e9156"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/style.css",
+      "size": 4317,
+      "sha": "e00070522070c86b5ee504dc7dbe019665ef765c"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/units/claim-and-response.js",
+      "size": 4036,
+      "sha": "5de34a1d6b8b4afd28b24c1ad046187e991dee9d"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/units/decompose-and-consolidate.js",
+      "size": 4713,
+      "sha": "17350c133f4c8207e94f257be9c8faab52384143"
+    },
+    {
+      "path": "packs/editorial-performance/0.2.2-candidate/units/evidence-and-focus.js",
+      "size": 3884,
+      "sha": "3d50a6000cb82eb89014a784c4c779da2523a0ef"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/README.md",
+      "size": 3718,
+      "sha": "c951d52dc2e77e61ad25c2691738e35abf62edad"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/audio_timeline.json",
+      "size": 3667,
+      "sha": "d19ff8fb8a4e1e03ef2e7bd537c8e3afbd77b619"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/manifest.json",
+      "size": 40376,
+      "sha": "d4754f41a44b57e7fdbeac98637070297a24444c"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/review.json",
+      "size": 2649,
+      "sha": "c2b0b4f8620bbd557627d45376ea5ce40cff6ea0"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/style.css",
+      "size": 4317,
+      "sha": "e00070522070c86b5ee504dc7dbe019665ef765c"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/units/claim-and-response.js",
+      "size": 4036,
+      "sha": "5de34a1d6b8b4afd28b24c1ad046187e991dee9d"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/units/decompose-and-consolidate.js",
+      "size": 4713,
+      "sha": "17350c133f4c8207e94f257be9c8faab52384143"
+    },
+    {
+      "path": "packs/editorial-performance/1.0.0/units/evidence-and-focus.js",
+      "size": 3884,
+      "sha": "3d50a6000cb82eb89014a784c4c779da2523a0ef"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/README.md",
+      "size": 854,
+      "sha": "6d926ab5621daee2799ab370ec50ffa486663c6b"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/audio_timeline.json",
+      "size": 3667,
+      "sha": "d19ff8fb8a4e1e03ef2e7bd537c8e3afbd77b619"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/manifest.json",
+      "size": 41457,
+      "sha": "c0a73d5566e387d711a7f7385d376bc0447cbd35"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/review.json",
+      "size": 798,
+      "sha": "806f400db17a57110f13b3db48d535a3b929f897"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/style.css",
+      "size": 4317,
+      "sha": "e00070522070c86b5ee504dc7dbe019665ef765c"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/units/claim-and-response.js",
+      "size": 4036,
+      "sha": "5de34a1d6b8b4afd28b24c1ad046187e991dee9d"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/units/decompose-and-consolidate.js",
+      "size": 4713,
+      "sha": "17350c133f4c8207e94f257be9c8faab52384143"
+    },
+    {
+      "path": "packs/editorial-performance/1.1.0-candidate/units/evidence-and-focus.js",
+      "size": 3884,
+      "sha": "3d50a6000cb82eb89014a784c4c779da2523a0ef"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/README.md",
+      "size": 1150,
+      "sha": "e753c3d6c618e3573fd0ed34f8719aa819b2b2a5"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/audio_timeline.json",
+      "size": 3667,
+      "sha": "d19ff8fb8a4e1e03ef2e7bd537c8e3afbd77b619"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/config.js",
+      "size": 146,
+      "sha": "be49ccb4d61995fc497e402eb2c4cd6ee6b3eaa1"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/manifest.json",
+      "size": 146640,
+      "sha": "a614b86534fe76823ee8f90fb98f4787de5d7319"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/portrait.js",
+      "size": 15530,
+      "sha": "4df96bfd418abc6ae6617cea0f1b1cbcd48f2658"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/review.json",
+      "size": 341,
+      "sha": "b178f1b5b6a4f4e61956997de3bace3e388f80bc"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/style.css",
+      "size": 4317,
+      "sha": "e00070522070c86b5ee504dc7dbe019665ef765c"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/animated-contents.js",
+      "size": 3950,
+      "sha": "cf35c64f7f3727fb4a7d4c4034379c293f69f141"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/basic-keyword.js",
+      "size": 908,
+      "sha": "8d9971d8f5a04d0bf4093aba961d1ede14738fde"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/basic-points.js",
+      "size": 932,
+      "sha": "4d893393394b2371704a7116c587995693a69958"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/basic-summary.js",
+      "size": 911,
+      "sha": "9befdb72f2eb09da49bee5904d61b425577b2d13"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/claim-and-response.js",
+      "size": 4040,
+      "sha": "a048c14528e1ccd24d49a2be324751d247d42f6b"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/claim-to-evolving-timeline.js",
+      "size": 3700,
+      "sha": "1d843341e0a157b2cd86ed802542ecb735d706ba"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/closing-with-invitation.js",
+      "size": 3651,
+      "sha": "1306af9fe8262d2513c8e1aa9437e3c05c07d9d3"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/decompose-and-consolidate.js",
+      "size": 4717,
+      "sha": "5ffc69dd09e3543549c650d9d839990ee8a09a2c"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/evidence-and-focus.js",
+      "size": 3888,
+      "sha": "f89483072b9fb903c416a74a6741f95d4440b108"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/evidence-to-handbook.js",
+      "size": 4800,
+      "sha": "bd7763f7b01323c3892fc1534e7527adc52f2cdd"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/recap-to-evidence-to-incident.js",
+      "size": 3841,
+      "sha": "03ec4d4c6e1c607c182e4db46fc3edf991d5cc9c"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/simplify-and-interrupt.js",
+      "size": 4554,
+      "sha": "689a6a626c730343d52df44e144475f4277c140b"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.0-candidate/units/transfer-and-consequence.js",
+      "size": 4522,
+      "sha": "d0efe85b02b2c45513d600497ac47846fd12fea5"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/README.md",
+      "size": 1552,
+      "sha": "f1955c10d0694117e6ca0fa81f2888477a849fb2"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/audio_timeline.json",
+      "size": 3667,
+      "sha": "d19ff8fb8a4e1e03ef2e7bd537c8e3afbd77b619"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/config.js",
+      "size": 146,
+      "sha": "be49ccb4d61995fc497e402eb2c4cd6ee6b3eaa1"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/manifest.json",
+      "size": 147055,
+      "sha": "e565b7a594891f3aa946880f3d49f67f39e4cf21"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/portrait.js",
+      "size": 15810,
+      "sha": "c756c46f80b545ed6220a90ad2cc4bd8aa84940d"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/review.json",
+      "size": 341,
+      "sha": "b178f1b5b6a4f4e61956997de3bace3e388f80bc"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/style.css",
+      "size": 4317,
+      "sha": "e00070522070c86b5ee504dc7dbe019665ef765c"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/animated-contents.js",
+      "size": 3950,
+      "sha": "cf35c64f7f3727fb4a7d4c4034379c293f69f141"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/basic-keyword.js",
+      "size": 908,
+      "sha": "8d9971d8f5a04d0bf4093aba961d1ede14738fde"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/basic-points.js",
+      "size": 932,
+      "sha": "4d893393394b2371704a7116c587995693a69958"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/basic-summary.js",
+      "size": 911,
+      "sha": "9befdb72f2eb09da49bee5904d61b425577b2d13"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/claim-and-response.js",
+      "size": 4040,
+      "sha": "a048c14528e1ccd24d49a2be324751d247d42f6b"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/claim-to-evolving-timeline.js",
+      "size": 3700,
+      "sha": "1d843341e0a157b2cd86ed802542ecb735d706ba"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/closing-with-invitation.js",
+      "size": 3651,
+      "sha": "1306af9fe8262d2513c8e1aa9437e3c05c07d9d3"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/decompose-and-consolidate.js",
+      "size": 4717,
+      "sha": "5ffc69dd09e3543549c650d9d839990ee8a09a2c"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/evidence-and-focus.js",
+      "size": 3888,
+      "sha": "f89483072b9fb903c416a74a6741f95d4440b108"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/evidence-to-handbook.js",
+      "size": 4800,
+      "sha": "bd7763f7b01323c3892fc1534e7527adc52f2cdd"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/recap-to-evidence-to-incident.js",
+      "size": 3841,
+      "sha": "03ec4d4c6e1c607c182e4db46fc3edf991d5cc9c"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/simplify-and-interrupt.js",
+      "size": 4554,
+      "sha": "689a6a626c730343d52df44e144475f4277c140b"
+    },
+    {
+      "path": "packs/editorial-performance/1.2.1-candidate/units/transfer-and-consequence.js",
+      "size": 4522,
+      "sha": "d0efe85b02b2c45513d600497ac47846fd12fea5"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/README.md",
+      "size": 2760,
+      "sha": "40e0f4f172cb25fd661f1a03ca9cdf9c04c6cf9a"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/audio_timeline.json",
+      "size": 5428,
+      "sha": "7b069a5406802121b60afc3c8d2c16db22c7c44d"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/manifest.json",
+      "size": 30284,
+      "sha": "fe287a5ef6a42b58075c760b0af43baf1c3cd5bd"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/style.css",
+      "size": 4381,
+      "sha": "7409a07b3786da373c1bb89fd142fb5b619fb477"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/units/claim-and-response.js",
+      "size": 4691,
+      "sha": "c76ae49838d1267e4fd5ce6b9dab5f24e38892eb"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/units/decompose-and-consolidate.js",
+      "size": 4106,
+      "sha": "00c62bf70ac1caff1f6e2879be4cf309d08bd6d1"
+    },
+    {
+      "path": "packs/kinetic-performance/0.2.2-candidate/units/evidence-and-focus.js",
+      "size": 4803,
+      "sha": "dd0daf518faca5d83d0e0dc0683a93692fcb112e"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/README.md",
+      "size": 3529,
+      "sha": "f44caabe38fd50a949474630ed05ef0e9f977ce8"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/audio_timeline.json",
+      "size": 5428,
+      "sha": "7b069a5406802121b60afc3c8d2c16db22c7c44d"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/manifest.json",
+      "size": 31410,
+      "sha": "f001808d0a5f226111b66040624c01f59da2d549"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/review.json",
+      "size": 2411,
+      "sha": "8d1b5399a9f0fd79e9a658ceb2ade437b507bd33"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/style.css",
+      "size": 4381,
+      "sha": "7409a07b3786da373c1bb89fd142fb5b619fb477"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/units/claim-and-response.js",
+      "size": 4691,
+      "sha": "c76ae49838d1267e4fd5ce6b9dab5f24e38892eb"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/units/decompose-and-consolidate.js",
+      "size": 4106,
+      "sha": "00c62bf70ac1caff1f6e2879be4cf309d08bd6d1"
+    },
+    {
+      "path": "packs/kinetic-performance/1.0.0/units/evidence-and-focus.js",
+      "size": 4803,
+      "sha": "dd0daf518faca5d83d0e0dc0683a93692fcb112e"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/README.md",
+      "size": 852,
+      "sha": "09d3dc99dda4359647e2f85c650bf0712dbf326e"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/audio_timeline.json",
+      "size": 5428,
+      "sha": "7b069a5406802121b60afc3c8d2c16db22c7c44d"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/manifest.json",
+      "size": 32491,
+      "sha": "5486d2e647c26c13ce8207efe6cf570ae103ae79"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/review.json",
+      "size": 798,
+      "sha": "806f400db17a57110f13b3db48d535a3b929f897"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/style.css",
+      "size": 4381,
+      "sha": "7409a07b3786da373c1bb89fd142fb5b619fb477"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/units/claim-and-response.js",
+      "size": 4691,
+      "sha": "c76ae49838d1267e4fd5ce6b9dab5f24e38892eb"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/units/decompose-and-consolidate.js",
+      "size": 4106,
+      "sha": "00c62bf70ac1caff1f6e2879be4cf309d08bd6d1"
+    },
+    {
+      "path": "packs/kinetic-performance/1.1.0-candidate/units/evidence-and-focus.js",
+      "size": 4803,
+      "sha": "dd0daf518faca5d83d0e0dc0683a93692fcb112e"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/README.md",
+      "size": 508,
+      "sha": "2a42d0b0475b312c51b1ce2b884e1d8dac07d856"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/audio_timeline.json",
+      "size": 5428,
+      "sha": "7b069a5406802121b60afc3c8d2c16db22c7c44d"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/config.js",
+      "size": 157,
+      "sha": "8b3888caaff0f30e7377275a58ccf55611fa84c4"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/manifest.json",
+      "size": 52678,
+      "sha": "39ff4b15696eb29ee304b7863b4630c28378c74d"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/portrait.js",
+      "size": 14253,
+      "sha": "166b121b232aea733981a8dbdf75645948422d73"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/review.json",
+      "size": 340,
+      "sha": "173b99e981154cbab8a391592d43b4fc01e2c025"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/style.css",
+      "size": 4381,
+      "sha": "7409a07b3786da373c1bb89fd142fb5b619fb477"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/units/claim-and-response.js",
+      "size": 4691,
+      "sha": "c76ae49838d1267e4fd5ce6b9dab5f24e38892eb"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/units/decompose-and-consolidate.js",
+      "size": 4106,
+      "sha": "00c62bf70ac1caff1f6e2879be4cf309d08bd6d1"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/units/evidence-and-focus.js",
+      "size": 4803,
+      "sha": "07f4a131a288e62a5a1bca6c8680ea3abcc4d324"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.0-candidate/units/three-items-consolidate.js",
+      "size": 4075,
+      "sha": "57fa6c2c7be7bdcd7274cd9cecc1adb22479d691"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/README.md",
+      "size": 1549,
+      "sha": "86f76fa4ec8c05f7948df518b598a72245ed1c83"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/audio_timeline.json",
+      "size": 5428,
+      "sha": "7b069a5406802121b60afc3c8d2c16db22c7c44d"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/config.js",
+      "size": 157,
+      "sha": "8b3888caaff0f30e7377275a58ccf55611fa84c4"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/manifest.json",
+      "size": 53093,
+      "sha": "bf2494b7fa1000b36dcdf18337a4a1d02cdf03db"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/portrait.js",
+      "size": 14533,
+      "sha": "f371bd19dc41475573c0cb56dbb70b5f74072d43"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/review.json",
+      "size": 340,
+      "sha": "173b99e981154cbab8a391592d43b4fc01e2c025"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/style.css",
+      "size": 4381,
+      "sha": "7409a07b3786da373c1bb89fd142fb5b619fb477"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/units/claim-and-response.js",
+      "size": 4691,
+      "sha": "c76ae49838d1267e4fd5ce6b9dab5f24e38892eb"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/units/decompose-and-consolidate.js",
+      "size": 4106,
+      "sha": "00c62bf70ac1caff1f6e2879be4cf309d08bd6d1"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/units/evidence-and-focus.js",
+      "size": 4803,
+      "sha": "07f4a131a288e62a5a1bca6c8680ea3abcc4d324"
+    },
+    {
+      "path": "packs/kinetic-performance/1.2.1-candidate/units/three-items-consolidate.js",
+      "size": 4075,
+      "sha": "57fa6c2c7be7bdcd7274cd9cecc1adb22479d691"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/README.md",
+      "size": 4928,
+      "sha": "6a8a098d6947280653f836ec40b0008e47e3950c"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/audio_timeline.json",
+      "size": 958,
+      "sha": "b0bcc58a0a203ab12fbcd0b67d3700ff84788484"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/config.js",
+      "size": 462,
+      "sha": "4eacf350995e9eb3e53a0a47812eaf9b73cf2967"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/manifest.json",
+      "size": 17141,
+      "sha": "45e59ff9f8c21f6026176d515c71c7f265ea18ad"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/style.css",
+      "size": 421684,
+      "sha": "934a93194ca07876a2b1863f14002febbf494162"
+    },
+    {
+      "path": "packs/paper-balance/0.1.6-candidate/units/apparent-tension-to-value.js",
+      "size": 13198,
+      "sha": "a10e580c4a751439fe7dee739d623e3e8fe141e6"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/README.md",
+      "size": 5236,
+      "sha": "0618e778db078e2f1a561e16d29efd21da3cf44f"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/audio_timeline.json",
+      "size": 958,
+      "sha": "b0bcc58a0a203ab12fbcd0b67d3700ff84788484"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/config.js",
+      "size": 462,
+      "sha": "4eacf350995e9eb3e53a0a47812eaf9b73cf2967"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/manifest.json",
+      "size": 18207,
+      "sha": "4c823f11ead5c674756c942888756d280d41ba14"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/review.json",
+      "size": 1373,
+      "sha": "826cfd62ec76c875d33b36c7a4f4e2ae58c23c60"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/style.css",
+      "size": 421684,
+      "sha": "934a93194ca07876a2b1863f14002febbf494162"
+    },
+    {
+      "path": "packs/paper-balance/1.0.0/units/apparent-tension-to-value.js",
+      "size": 13198,
+      "sha": "a10e580c4a751439fe7dee739d623e3e8fe141e6"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/README.md",
+      "size": 957,
+      "sha": "6f33bccaba37adaf9e3354d121c7c86a48a7f9fd"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/audio_timeline.json",
+      "size": 958,
+      "sha": "b0bcc58a0a203ab12fbcd0b67d3700ff84788484"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/config.js",
+      "size": 462,
+      "sha": "4eacf350995e9eb3e53a0a47812eaf9b73cf2967"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/manifest.json",
+      "size": 19288,
+      "sha": "cd3041ad2b2a1b1558aef65b16a844915f394da1"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/review.json",
+      "size": 798,
+      "sha": "b835a05f310a90690dafb49f78d4fc590a1e5613"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/style.css",
+      "size": 421684,
+      "sha": "934a93194ca07876a2b1863f14002febbf494162"
+    },
+    {
+      "path": "packs/paper-balance/1.1.0-candidate/units/apparent-tension-to-value.js",
+      "size": 13198,
+      "sha": "a10e580c4a751439fe7dee739d623e3e8fe141e6"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/README.md",
+      "size": 1538,
+      "sha": "c122d0725f05ed729e53dd387e03ee0572887f4b"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/audio_timeline.json",
+      "size": 958,
+      "sha": "b0bcc58a0a203ab12fbcd0b67d3700ff84788484"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/config.js",
+      "size": 462,
+      "sha": "4eacf350995e9eb3e53a0a47812eaf9b73cf2967"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/manifest.json",
+      "size": 19705,
+      "sha": "0781375e99cef0bd2ca79f5a463c85ae4ef2a29f"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/portrait.js",
+      "size": 14509,
+      "sha": "db1de8a5ea0b2d5a0ee82b63af5ae738a9949b57"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/review.json",
+      "size": 798,
+      "sha": "b835a05f310a90690dafb49f78d4fc590a1e5613"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/style.css",
+      "size": 421684,
+      "sha": "934a93194ca07876a2b1863f14002febbf494162"
+    },
+    {
+      "path": "packs/paper-balance/1.1.1-candidate/units/apparent-tension-to-value.js",
+      "size": 13198,
+      "sha": "a10e580c4a751439fe7dee739d623e3e8fe141e6"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/README.md",
+      "size": 2340,
+      "sha": "18f604d09d060db04059b675f22eea45cee6ca35"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/audio_timeline.json",
+      "size": 873,
+      "sha": "0c1ac9449e49d1908f75ae2538e187b23d4aa5aa"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/fonts_ready.js",
+      "size": 198,
+      "sha": "0b58e72ec5ae2d60bef3810897792708b8733cc7"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/manifest.json",
+      "size": 28520,
+      "sha": "3ce8988468ec5516a6e05f9c9274734ac22c9ab9"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/style.css",
+      "size": 426032,
+      "sha": "7e36d15cbc38fa95a2733bfb8cf4e3ba60afe876"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/units/calendar-to-delivery.js",
+      "size": 39019,
+      "sha": "955da3f8dec6a24b709b16619434b0af28fd4ab3"
+    },
+    {
+      "path": "packs/paper-ball-performance/0.1.3-candidate/units/cards-to-network.js",
+      "size": 35881,
+      "sha": "af15284c34f267440015c15cf7ee01fcdcbae508"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/README.md",
+      "size": 2986,
+      "sha": "0504e05c16e56559b3b3cfa751e0638718196732"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/audio_timeline.json",
+      "size": 873,
+      "sha": "0c1ac9449e49d1908f75ae2538e187b23d4aa5aa"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/fonts_ready.js",
+      "size": 198,
+      "sha": "0b58e72ec5ae2d60bef3810897792708b8733cc7"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/manifest.json",
+      "size": 30493,
+      "sha": "b02f9e22184bff3e91d00b700368433fefb1b086"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/review.json",
+      "size": 3113,
+      "sha": "bc560262f41526404ed3a50baa907311b18d0148"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/style.css",
+      "size": 426032,
+      "sha": "7e36d15cbc38fa95a2733bfb8cf4e3ba60afe876"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/units/calendar-to-delivery.js",
+      "size": 39019,
+      "sha": "955da3f8dec6a24b709b16619434b0af28fd4ab3"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.0.0/units/cards-to-network.js",
+      "size": 35881,
+      "sha": "af15284c34f267440015c15cf7ee01fcdcbae508"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/README.md",
+      "size": 856,
+      "sha": "0c87abfbced190acf167b388b3330f6e5235bbe9"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/audio_timeline.json",
+      "size": 873,
+      "sha": "0c1ac9449e49d1908f75ae2538e187b23d4aa5aa"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/fonts_ready.js",
+      "size": 198,
+      "sha": "0b58e72ec5ae2d60bef3810897792708b8733cc7"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/manifest.json",
+      "size": 31574,
+      "sha": "68c5400f1b410712ee11affd7f23a615b675f2da"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/review.json",
+      "size": 798,
+      "sha": "4dc437b1936ada2a19b9adf71a48710fa015ba31"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/style.css",
+      "size": 426032,
+      "sha": "7e36d15cbc38fa95a2733bfb8cf4e3ba60afe876"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/units/calendar-to-delivery.js",
+      "size": 39019,
+      "sha": "955da3f8dec6a24b709b16619434b0af28fd4ab3"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.0-candidate/units/cards-to-network.js",
+      "size": 35881,
+      "sha": "af15284c34f267440015c15cf7ee01fcdcbae508"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/LICENSE",
+      "size": 1067,
+      "sha": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/README.md",
+      "size": 1553,
+      "sha": "0b49486ac20cd726ca045c7cac6a12c81fec118e"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/audio_timeline.json",
+      "size": 873,
+      "sha": "0c1ac9449e49d1908f75ae2538e187b23d4aa5aa"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/fonts_ready.js",
+      "size": 198,
+      "sha": "0b58e72ec5ae2d60bef3810897792708b8733cc7"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/licenses/OFL-anton.txt",
+      "size": 4484,
+      "sha": "93feddee37145696e123ea65a6772cab09663f9e"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/licenses/OFL-caveat.txt",
+      "size": 4385,
+      "sha": "6e5220c9576d98dfc684e550ddf0d87f68b3edc5"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/licenses/OFL-geist.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/licenses/OFL-geistmono.txt",
+      "size": 4387,
+      "sha": "61f6f4b7853081236aec6407f2dd3c7170997f84"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/manifest.json",
+      "size": 31989,
+      "sha": "8b9fa455c9c7a5940a2b73685390bc9d4f7f3bda"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/portrait.js",
+      "size": 14509,
+      "sha": "db1de8a5ea0b2d5a0ee82b63af5ae738a9949b57"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/review.json",
+      "size": 798,
+      "sha": "4dc437b1936ada2a19b9adf71a48710fa015ba31"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/style.css",
+      "size": 426032,
+      "sha": "7e36d15cbc38fa95a2733bfb8cf4e3ba60afe876"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/units/calendar-to-delivery.js",
+      "size": 39019,
+      "sha": "955da3f8dec6a24b709b16619434b0af28fd4ab3"
+    },
+    {
+      "path": "packs/paper-ball-performance/1.1.1-candidate/units/cards-to-network.js",
+      "size": 35881,
+      "sha": "af15284c34f267440015c15cf7ee01fcdcbae508"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/README.md",
+      "size": 2759,
+      "sha": "9099ba68c20b4108bc011014913d2d6e44a28a2c"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/audio_timeline.json",
+      "size": 4940,
+      "sha": "1007e82b75c90d1e8184109e6c3135bdbb72bc1d"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/manifest.json",
+      "size": 32574,
+      "sha": "8b141a18a569154aa261d9f517b3ebed57db2b1a"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/style.css",
+      "size": 6082,
+      "sha": "76eeb9e491eebf7a5794bbbd74128a3627aa997e"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/units/claim-and-response.js",
+      "size": 4885,
+      "sha": "c3782e599385c53ee362d54f13f79d3658f801cf"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/units/decompose-and-consolidate.js",
+      "size": 4920,
+      "sha": "93a38d6fa25fabb2947823703848dd28d4c39a91"
+    },
+    {
+      "path": "packs/stage-performance/0.2.2-candidate/units/evidence-and-focus.js",
+      "size": 4225,
+      "sha": "1b0a2b02693a966b137c95caddc65a1603b5b3e7"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/README.md",
+      "size": 3517,
+      "sha": "fafb00fc82d5684abd909142510bb9f7abb17f82"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/audio_timeline.json",
+      "size": 4940,
+      "sha": "1007e82b75c90d1e8184109e6c3135bdbb72bc1d"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/manifest.json",
+      "size": 33699,
+      "sha": "402a04e91aacbe3bb8f7c31f7ff23b94d7ad2bf6"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/review.json",
+      "size": 2410,
+      "sha": "848aae8bd846cb291a33d3956b6086ca580c82fc"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/style.css",
+      "size": 6082,
+      "sha": "76eeb9e491eebf7a5794bbbd74128a3627aa997e"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/units/claim-and-response.js",
+      "size": 4885,
+      "sha": "c3782e599385c53ee362d54f13f79d3658f801cf"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/units/decompose-and-consolidate.js",
+      "size": 4920,
+      "sha": "93a38d6fa25fabb2947823703848dd28d4c39a91"
+    },
+    {
+      "path": "packs/stage-performance/1.0.0/units/evidence-and-focus.js",
+      "size": 4225,
+      "sha": "1b0a2b02693a966b137c95caddc65a1603b5b3e7"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/README.md",
+      "size": 853,
+      "sha": "50d9e01d80d1665aa166034684d8def2c004172f"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/audio_timeline.json",
+      "size": 4940,
+      "sha": "1007e82b75c90d1e8184109e6c3135bdbb72bc1d"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/manifest.json",
+      "size": 34780,
+      "sha": "425054bf23210a50cf63f194d57047892d42f7f8"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/review.json",
+      "size": 798,
+      "sha": "806f400db17a57110f13b3db48d535a3b929f897"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/style.css",
+      "size": 6082,
+      "sha": "76eeb9e491eebf7a5794bbbd74128a3627aa997e"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/units/claim-and-response.js",
+      "size": 4885,
+      "sha": "c3782e599385c53ee362d54f13f79d3658f801cf"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/units/decompose-and-consolidate.js",
+      "size": 4920,
+      "sha": "93a38d6fa25fabb2947823703848dd28d4c39a91"
+    },
+    {
+      "path": "packs/stage-performance/1.1.0-candidate/units/evidence-and-focus.js",
+      "size": 4225,
+      "sha": "1b0a2b02693a966b137c95caddc65a1603b5b3e7"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/README.md",
+      "size": 1550,
+      "sha": "f6244c4cb2915a07284c5763bb785dc6f98b6eb2"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/audio_timeline.json",
+      "size": 4940,
+      "sha": "1007e82b75c90d1e8184109e6c3135bdbb72bc1d"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/manifest.json",
+      "size": 35195,
+      "sha": "b13090ce0a206ae64c8c51c7e757a857a768e633"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/motion.js",
+      "size": 698,
+      "sha": "4a7bcd74f7fc084a70df37a1704e18ee6bc1f048"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/portrait.css",
+      "size": 1448,
+      "sha": "7751d331ea5efd637d3b1b066bc005ed8b08cd74"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/portrait.js",
+      "size": 14509,
+      "sha": "db1de8a5ea0b2d5a0ee82b63af5ae738a9949b57"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/review.json",
+      "size": 798,
+      "sha": "806f400db17a57110f13b3db48d535a3b929f897"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/style.css",
+      "size": 6082,
+      "sha": "76eeb9e491eebf7a5794bbbd74128a3627aa997e"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/units/claim-and-response.js",
+      "size": 4885,
+      "sha": "c3782e599385c53ee362d54f13f79d3658f801cf"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/units/decompose-and-consolidate.js",
+      "size": 4920,
+      "sha": "93a38d6fa25fabb2947823703848dd28d4c39a91"
+    },
+    {
+      "path": "packs/stage-performance/1.1.1-candidate/units/evidence-and-focus.js",
+      "size": 4225,
+      "sha": "1b0a2b02693a966b137c95caddc65a1603b5b3e7"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/README.md",
+      "size": 2758,
+      "sha": "03043d62e35b747a83bb0a2b6620e09102db30a7"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/audio_timeline.json",
+      "size": 154800,
+      "sha": "71f5c2acc950020670ff1625527d72462c734b35"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/config.js",
+      "size": 156,
+      "sha": "00fd53249d00c3b064daae97639c705fad9f1bf2"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/lib.js",
+      "size": 13893,
+      "sha": "bd377d4ddce8c84d4549d7b7d352805361228b21"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/manifest.json",
+      "size": 51427,
+      "sha": "33cd0721f9c1ef5f0422bc9f4fa2511fcc5fd424"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/portrait.js",
+      "size": 633,
+      "sha": "984f576ef4e6593e794cb3f9554d562e390b60e7"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/style.css",
+      "size": 3250,
+      "sha": "b2caf141431302270b449691e979c7f213c337bb"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/typography.js",
+      "size": 2365,
+      "sha": "d3c99d6d926f8c293aea8c05cddd8eca7bb07f41"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/units/answer-to-question.js",
+      "size": 81053,
+      "sha": "6e1d1d2c81f6fd05f7eaaf6d20c4d59c022c40f7"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/units/basic-keyword.js",
+      "size": 80687,
+      "sha": "d49b09d65a1bfb2c4f42220cc3041f802e1c746a"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/units/basic-points.js",
+      "size": 81107,
+      "sha": "71fd7d91f18f8fd46c2305d5deb77c25e92fedd7"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/units/basic-summary.js",
+      "size": 80957,
+      "sha": "6debdb9d0ee4b6ca44d616c326f3d1a06dd39f67"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/units/cost-to-verdict.js",
+      "size": 83283,
+      "sha": "62e22cfadbf12a5f248e01ede6c3ed95bc2aa7d0"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/units/echo-focus.js",
+      "size": 80751,
+      "sha": "21636cc8e4cb44cc6fb2e07b201f7d2d714af027"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.0-candidate/units/steps-to-uniformity.js",
+      "size": 82465,
+      "sha": "59287de4419f63e5e2f5d9dbcac716da84ceb25d"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/README.md",
+      "size": 1580,
+      "sha": "96f6058b9480ace94d76579c7152b5b5d6db5a36"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/audio_timeline.json",
+      "size": 154800,
+      "sha": "71f5c2acc950020670ff1625527d72462c734b35"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/config.js",
+      "size": 156,
+      "sha": "00fd53249d00c3b064daae97639c705fad9f1bf2"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/lib.js",
+      "size": 13893,
+      "sha": "bd377d4ddce8c84d4549d7b7d352805361228b21"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/manifest.json",
+      "size": 51842,
+      "sha": "cbd7a31ee499d7f5ed6a583fc516b5339023f0ea"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/portrait.js",
+      "size": 1205,
+      "sha": "c1c2295f5faf753676319aef4884c176eb6c0283"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/style.css",
+      "size": 3250,
+      "sha": "b2caf141431302270b449691e979c7f213c337bb"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/typography.js",
+      "size": 2365,
+      "sha": "d3c99d6d926f8c293aea8c05cddd8eca7bb07f41"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/units/answer-to-question.js",
+      "size": 81111,
+      "sha": "6090480fd05247f7763d00130c5602320883eae0"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/units/basic-keyword.js",
+      "size": 80745,
+      "sha": "a6b82ffd76fa739ea0aebea52d56ac5aeca16bf7"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/units/basic-points.js",
+      "size": 81165,
+      "sha": "3e4d01e9e0111a92845f6e2815daafa420d41456"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/units/basic-summary.js",
+      "size": 81015,
+      "sha": "6a22f6f71c81547e80f46507d69c1f3fd105aba8"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/units/cost-to-verdict.js",
+      "size": 83341,
+      "sha": "d79ec59dd60be591ab7161e56ff36991acc35065"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/units/echo-focus.js",
+      "size": 80809,
+      "sha": "2ef2bb81a93d9d0e59546208d06f1611458082ab"
+    },
+    {
+      "path": "packs/vibrant-color-performance/0.1.1-candidate/units/steps-to-uniformity.js",
+      "size": 82523,
+      "sha": "5e23e06c3117522f1850c5f9e2508c7fbd53cd8e"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/README.md",
+      "size": 1722,
+      "sha": "89c3e838f895070bc7ecf7ce5608d66f265fdb83"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/audio_timeline.json",
+      "size": 4305,
+      "sha": "e27cf4b121c4d1a440b2d57ce7e949107e3abab1"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/manifest.json",
+      "size": 35081,
+      "sha": "b40bac05b2c378944df2c1b714047f2115d353fe"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/portrait.css",
+      "size": 755,
+      "sha": "194e8f53ee923007a57d2a77ce7b7e4ed1c870eb"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/portrait.js",
+      "size": 4407,
+      "sha": "54bc3f0b827e82385d8e9a2fbe61fdab67349e0c"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/sticker_fonts.js",
+      "size": 149,
+      "sha": "75d9ce1971cbe414c416c39db7dec69b2d4d63c8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/style.css",
+      "size": 6117,
+      "sha": "f7584b3e53ed275ed6628cf97925af9249607132"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/typography.js",
+      "size": 1641,
+      "sha": "07bdc5ca6b237ebac6cef95c95af5ff53249a3e8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/units/feedback-to-update.js",
+      "size": 49865,
+      "sha": "a762bc720d1141192433bc3f328b347acd357b91"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/units/keyword-to-conclusion.js",
+      "size": 50135,
+      "sha": "39e005472321b1ad5b93ff22ded44b7a3245b9d9"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.0-candidate/units/prepared-to-reuse.js",
+      "size": 50236,
+      "sha": "4f81725ca3e5f22d26c330d8df8d7f56089d3812"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/README.md",
+      "size": 2066,
+      "sha": "a488269baa0e59b262fbf44fb76e9f47c7eae379"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/audio_timeline.json",
+      "size": 4305,
+      "sha": "e27cf4b121c4d1a440b2d57ce7e949107e3abab1"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/config.js",
+      "size": 390,
+      "sha": "0101c0e82a9e226bbc6d40ec134a0b61ffb82479"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/lib.js",
+      "size": 13841,
+      "sha": "b25c188d6dd1d92f37eaf8c39d0f71596b23ad81"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/manifest.json",
+      "size": 36591,
+      "sha": "531850a8da7dfb8fb5e45cc4e5258bb920accd20"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/portrait.css",
+      "size": 755,
+      "sha": "194e8f53ee923007a57d2a77ce7b7e4ed1c870eb"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/portrait.js",
+      "size": 4407,
+      "sha": "54bc3f0b827e82385d8e9a2fbe61fdab67349e0c"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/sticker_fonts.js",
+      "size": 149,
+      "sha": "75d9ce1971cbe414c416c39db7dec69b2d4d63c8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/style.css",
+      "size": 6117,
+      "sha": "f7584b3e53ed275ed6628cf97925af9249607132"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/typography.js",
+      "size": 1641,
+      "sha": "07bdc5ca6b237ebac6cef95c95af5ff53249a3e8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/units/feedback-to-update.js",
+      "size": 49865,
+      "sha": "a762bc720d1141192433bc3f328b347acd357b91"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/units/keyword-to-conclusion.js",
+      "size": 50135,
+      "sha": "39e005472321b1ad5b93ff22ded44b7a3245b9d9"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.1.1-candidate/units/prepared-to-reuse.js",
+      "size": 50236,
+      "sha": "4f81725ca3e5f22d26c330d8df8d7f56089d3812"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/README.md",
+      "size": 648,
+      "sha": "50c85fb08def65284ddd235695431f643e27a25b"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/audio_timeline.json",
+      "size": 4305,
+      "sha": "e27cf4b121c4d1a440b2d57ce7e949107e3abab1"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/config.js",
+      "size": 157,
+      "sha": "8b3888caaff0f30e7377275a58ccf55611fa84c4"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/manifest.json",
+      "size": 62927,
+      "sha": "e5ce436303ce421a418e0766e6a6b9ee817ed996"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/portrait.css",
+      "size": 755,
+      "sha": "194e8f53ee923007a57d2a77ce7b7e4ed1c870eb"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/portrait.js",
+      "size": 4430,
+      "sha": "c0ba391dbdad50443d128da8201ca7fc395c2668"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/review.json",
+      "size": 340,
+      "sha": "a284de74ec52659e62c4729c92db06577ce629a9"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/sticker_fonts.js",
+      "size": 149,
+      "sha": "75d9ce1971cbe414c416c39db7dec69b2d4d63c8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/style.css",
+      "size": 6117,
+      "sha": "f7584b3e53ed275ed6628cf97925af9249607132"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/typography.js",
+      "size": 1641,
+      "sha": "07bdc5ca6b237ebac6cef95c95af5ff53249a3e8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/units/feedback-to-update-natural-end.js",
+      "size": 50428,
+      "sha": "497dbf7f09a0cbc74c795416af1da7b633638b6a"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/units/feedback-to-update.js",
+      "size": 49865,
+      "sha": "a762bc720d1141192433bc3f328b347acd357b91"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/units/keyword-to-conclusion.js",
+      "size": 50135,
+      "sha": "39e005472321b1ad5b93ff22ded44b7a3245b9d9"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/units/prepared-to-reuse-natural-end.js",
+      "size": 50795,
+      "sha": "f3a0a8971c00fe87d58143c1b0c9a4502f3bb100"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.0-candidate/units/prepared-to-reuse.js",
+      "size": 50236,
+      "sha": "4f81725ca3e5f22d26c330d8df8d7f56089d3812"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/README.md",
+      "size": 1586,
+      "sha": "61b02cbfcccfe5cbb88c18e66a187a0f9c5c1fd3"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/audio_timeline.json",
+      "size": 4305,
+      "sha": "e27cf4b121c4d1a440b2d57ce7e949107e3abab1"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/config.js",
+      "size": 157,
+      "sha": "8b3888caaff0f30e7377275a58ccf55611fa84c4"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/lib.js",
+      "size": 13862,
+      "sha": "017eb43f5c2be1d1bf7e328a19b2f45382c3ce87"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/manifest.json",
+      "size": 63342,
+      "sha": "01d514f9e12617446bb1c3ed77bec227d63ff67a"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/portrait.css",
+      "size": 755,
+      "sha": "194e8f53ee923007a57d2a77ce7b7e4ed1c870eb"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/portrait.js",
+      "size": 4570,
+      "sha": "c74f8fb4a7703e365b3d4a0399d74ac2ec4fc22d"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/review.json",
+      "size": 340,
+      "sha": "a284de74ec52659e62c4729c92db06577ce629a9"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/sticker_fonts.js",
+      "size": 149,
+      "sha": "75d9ce1971cbe414c416c39db7dec69b2d4d63c8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/style.css",
+      "size": 6117,
+      "sha": "f7584b3e53ed275ed6628cf97925af9249607132"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/typography.js",
+      "size": 1641,
+      "sha": "07bdc5ca6b237ebac6cef95c95af5ff53249a3e8"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/units/feedback-to-update-natural-end.js",
+      "size": 50428,
+      "sha": "497dbf7f09a0cbc74c795416af1da7b633638b6a"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/units/feedback-to-update.js",
+      "size": 49865,
+      "sha": "a762bc720d1141192433bc3f328b347acd357b91"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/units/keyword-to-conclusion.js",
+      "size": 50135,
+      "sha": "39e005472321b1ad5b93ff22ded44b7a3245b9d9"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/units/prepared-to-reuse-natural-end.js",
+      "size": 50795,
+      "sha": "f3a0a8971c00fe87d58143c1b0c9a4502f3bb100"
+    },
+    {
+      "path": "packs/vivid-sticker-performance/0.2.1-candidate/units/prepared-to-reuse.js",
+      "size": 50236,
+      "sha": "4f81725ca3e5f22d26c330d8df8d7f56089d3812"
+    },
+    {
+      "path": "references/adaptive-composition.md",
+      "size": 16953,
+      "sha": "375c95e2f93f66d56d22bf746074d4c22d8d54f0"
+    },
+    {
+      "path": "references/api.md",
+      "size": 3383,
+      "sha": "5ecfac7253c6a067d964fe2f5e2165b6af095763"
+    },
+    {
+      "path": "references/audio.md",
+      "size": 5297,
+      "sha": "de70cc15aafcd82889cc0d2faf0e575fbfb05e94"
+    },
+    {
+      "path": "references/authoring.md",
+      "size": 4820,
+      "sha": "3bab000de6716745fcacf4eae6f83cd067f31782"
+    },
+    {
+      "path": "references/automatic-selection.md",
+      "size": 7150,
+      "sha": "19daee38ecbb48beae647c198b830a3b44e6f5b7"
+    },
+    {
+      "path": "references/color-and-preview.md",
+      "size": 3642,
+      "sha": "f619751b092f6b9f4b5a4aaf4a7611fc86fafdb0"
+    },
+    {
+      "path": "references/compatibility.md",
+      "size": 4208,
+      "sha": "7970f5c785ffa9df423a4aa48d81453f411ca685"
+    },
+    {
+      "path": "references/dark-3d-template.md",
+      "size": 10505,
+      "sha": "e62d616b5e4b002da43795188c8e1a1b80a9d1d1"
+    },
+    {
+      "path": "references/doubao-console-template.md",
+      "size": 3828,
+      "sha": "bc820fc53d614d047c50c58033e8bf4d28592beb"
+    },
+    {
+      "path": "references/full-project-templating.md",
+      "size": 16694,
+      "sha": "3b1eb6f1ec5f181c35bdee221bd4b2635f1cb431"
+    },
+    {
+      "path": "references/handdrawn-animation.md",
+      "size": 9765,
+      "sha": "aa4654190c276a8a891e9e42996fd6bf384eaaf7"
+    },
+    {
+      "path": "references/local-rematch.md",
+      "size": 4703,
+      "sha": "3480d3c321f4fae00e25b3b47c610e1f0cda20b6"
+    },
+    {
+      "path": "references/lottie-assets.md",
+      "size": 4235,
+      "sha": "20fb18a398f54d14262f47d08171ab1af6090573"
+    },
+    {
+      "path": "references/motion-quality.md",
+      "size": 6108,
+      "sha": "7dc2bb67679b9b83d206d4270f9f340aa9462764"
+    },
+    {
+      "path": "references/music-library.json",
+      "size": 787,
+      "sha": "fb4943c2efaa9ad3a908f07f18e4761cd02ec80e"
+    },
+    {
+      "path": "references/output-signature.md",
+      "size": 2088,
+      "sha": "f447ba3c8e4286c66d9db2cdd9a00936bf8c3dc1"
+    },
+    {
+      "path": "references/portrait.md",
+      "size": 5759,
+      "sha": "3c79b781be1481a50440401fa832c9f6aa6a764b"
+    },
+    {
+      "path": "references/presenter-comfort.md",
+      "size": 1583,
+      "sha": "9d35645ebf7f85437efff076db520b6df0354b98"
+    },
+    {
+      "path": "references/presenter-motion-versions.json",
+      "size": 1363,
+      "sha": "c9f194b385f97ac2862c7db5e8960617709ff62b"
+    },
+    {
+      "path": "references/projects.md",
+      "size": 4342,
+      "sha": "da2ccf3bd5e9f880ec9cbdd38ef4358d71d5f9a1"
+    },
+    {
+      "path": "references/quality-upgrade.md",
+      "size": 6654,
+      "sha": "4342f56534f3c3b58830c0402d2df6a97165ae31"
+    },
+    {
+      "path": "references/rules.md",
+      "size": 4444,
+      "sha": "71dc4bc79d98c6ef90907c6d2d495e5ba6e6cf68"
+    },
+    {
+      "path": "references/scene-patterns.md",
+      "size": 3909,
+      "sha": "b9f2e82738da0d089b371a6c3ccd5a7da717132f"
+    },
+    {
+      "path": "references/start-creating.md",
+      "size": 4131,
+      "sha": "fa6f4ff5e848070383e6a6bbf9130bd5355ef314"
+    },
+    {
+      "path": "references/style.md",
+      "size": 2177,
+      "sha": "e479f84f789819ad493c33267ed9e19fbfcdff38"
+    },
+    {
+      "path": "references/subtitle-options.md",
+      "size": 2069,
+      "sha": "5ca4375eb2c3a7053718e933a923b926688856f4"
+    },
+    {
+      "path": "references/template-catalog.json",
+      "size": 16741,
+      "sha": "7bf6170dc21c46f7e49694f68485b22724bf8e4e"
+    },
+    {
+      "path": "references/template-catalog.md",
+      "size": 9092,
+      "sha": "6a107f0193619c8a44bc2978b4686b083b197d54"
+    },
+    {
+      "path": "references/template-intake.md",
+      "size": 15135,
+      "sha": "70a54d5fabffaa1874a6c32c912b4fd36742c677"
+    },
+    {
+      "path": "references/templates.md",
+      "size": 2999,
+      "sha": "be09314c61ef56e1f85eaecb98060ef2effcda1f"
+    },
+    {
+      "path": "references/tooling.md",
+      "size": 5933,
+      "sha": "e376a9bfa0a5ec9901fd7351448bd1a05df7b0cc"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "size": 3867,
+      "sha": "dec53eaa44c30f416ee5e4a8e64afb4d6ac45139"
+    },
+    {
+      "path": "references/vibrant-color-template.md",
+      "size": 4047,
+      "sha": "bf3552580b292e52188c7ae7efdf4ccd1afdd691"
+    },
+    {
+      "path": "references/visual-routes.md",
+      "size": 5104,
+      "sha": "5e539f8ac62ad4071386bd5627d7bd840057e2f3"
+    },
+    {
+      "path": "references/vivid-sticker-template.md",
+      "size": 4092,
+      "sha": "11aeb28a49156f79c2fe38ab4462d0716d1f3353"
+    },
+    {
+      "path": "requirements-runtime.txt",
+      "size": 226,
+      "sha": "e793da4b6bf25e2e94a64027470f7faab2534036"
+    },
+    {
+      "path": "scripts/adapt_project.py",
+      "size": 64618,
+      "sha": "8ca500731b265c5b6739da71b5b87714fc3b1079"
+    },
+    {
+      "path": "scripts/adaptation.py",
+      "size": 43481,
+      "sha": "6e7b332d77d129e82f6479dbae87da06171b492f"
+    },
+    {
+      "path": "scripts/adaptation_audio.py",
+      "size": 11481,
+      "sha": "e245587c9c3fb31126928e20466dbbfdf9b3d938"
+    },
+    {
+      "path": "scripts/align_talk.py",
+      "size": 10231,
+      "sha": "8df8c846e47c32d82837adb3c91022a4dc300192"
+    },
+    {
+      "path": "scripts/audiolib.py",
+      "size": 23198,
+      "sha": "776aeb4ae51d93795a90272ef1db4e7bcbc1b62c"
+    },
+    {
+      "path": "scripts/audit_macro_project.mjs",
+      "size": 20605,
+      "sha": "e66c836c29b216ffaa4c1922a098f2e1a5fc1b40"
+    },
+    {
+      "path": "scripts/audit_pack_closure.py",
+      "size": 4171,
+      "sha": "def2625298180eedc32cb5dd278146e9f76d012b"
+    },
+    {
+      "path": "scripts/audit_raster_repeat.mjs",
+      "size": 6504,
+      "sha": "77d99a62575f2c0bed3a2405c6c419c396257845"
+    },
+    {
+      "path": "scripts/audit_source_replay.mjs",
+      "size": 4292,
+      "sha": "dd4ab1d5883df47c51c52c3e7db71f96a95eb0e7"
+    },
+    {
+      "path": "scripts/authored_units.mjs",
+      "size": 6706,
+      "sha": "14dc393aab77d8eb4e1ff24427d6fd954d57fca2"
+    },
+    {
+      "path": "scripts/auto_audio.py",
+      "size": 2937,
+      "sha": "9f2cf2cf420f236b202b3c1658805fd123d7a82e"
+    },
+    {
+      "path": "scripts/auto_runtime.js",
+      "size": 3604,
+      "sha": "2bffc6134e174bf3e2e74ca91a221a5f5014c851"
+    },
+    {
+      "path": "scripts/auto_templates.py",
+      "size": 20541,
+      "sha": "e9d0f3069a41cb8a91937dc678e4c8a67fb39e12"
+    },
+    {
+      "path": "scripts/build_auto_project.py",
+      "size": 14317,
+      "sha": "83a03d9b733da6d2e8d33300da39b04b3a7848aa"
+    },
+    {
+      "path": "scripts/build_macro_project.py",
+      "size": 48009,
+      "sha": "af9550be6fae7ad044dc30df805126451895921c"
+    },
+    {
+      "path": "scripts/build_subs.py",
+      "size": 1723,
+      "sha": "1c0b3354985b6d1b32ca73c7d72e407404415f67"
+    },
+    {
+      "path": "scripts/chrome.mjs",
+      "size": 2474,
+      "sha": "f3cef629ff8fe19b6c5da25957429959009374a1"
+    },
+    {
+      "path": "scripts/color_management.py",
+      "size": 10224,
+      "sha": "a5c1cc70e51be9fd082f12dca6f099b9d0d4c022"
+    },
+    {
+      "path": "scripts/content_evidence.py",
+      "size": 8753,
+      "sha": "2ca563872e476280f5a452e4f3a5a56b6a7666ef"
+    },
+    {
+      "path": "scripts/doctor.py",
+      "size": 4065,
+      "sha": "9e04bf5b206c57a4e88bf1d1a9bcb71df1ebf8cd"
+    },
+    {
+      "path": "scripts/dump_sfx.mjs",
+      "size": 1585,
+      "sha": "d55b6dc4f4162af2281ce72c8b2fcd118a2829f0"
+    },
+    {
+      "path": "scripts/export_project.py",
+      "size": 18380,
+      "sha": "eff37a815748c101466e626069509b89375cfeb1"
+    },
+    {
+      "path": "scripts/extract_authored_pack.py",
+      "size": 15192,
+      "sha": "e18db49f3b5f466ce1b5501edc0ae52fc170c4e7"
+    },
+    {
+      "path": "scripts/face_track.sh",
+      "size": 1622,
+      "sha": "60b5985271b296bb3c85164e16599362ed144644"
+    },
+    {
+      "path": "scripts/face_track.swift",
+      "size": 928,
+      "sha": "b1af3f890f6c8d0d4f6f9b8adb2439b5e9a80f32"
+    },
+    {
+      "path": "scripts/face_tracking.py",
+      "size": 3809,
+      "sha": "99e6b194b3d7ef48f3cf4a35079c02ea62ce0d3a"
+    },
+    {
+      "path": "scripts/font_policy.py",
+      "size": 8573,
+      "sha": "72b7ee40c4854a994d1b2b9141bc7e6abb6590d2"
+    },
+    {
+      "path": "scripts/import_talk.py",
+      "size": 8139,
+      "sha": "d6848139ef274f48269c438b58fa0fb8664532b2"
+    },
+    {
+      "path": "scripts/inspect_project.py",
+      "size": 5678,
+      "sha": "fe72601178b7d57315fe250bb4a06e585c125e99"
+    },
+    {
+      "path": "scripts/layouts/portrait.css",
+      "size": 1456,
+      "sha": "2b53e07807dc65ed9bf678d9cbfa6457039d4971"
+    },
+    {
+      "path": "scripts/layouts/portrait.js",
+      "size": 14229,
+      "sha": "a1ff98edc06eeadd34f350d42466af095a06d592"
+    },
+    {
+      "path": "scripts/macro_audio.py",
+      "size": 9755,
+      "sha": "e9b6ef17f93827b8c98ebdf21331afda47a98ccc"
+    },
+    {
+      "path": "scripts/macro_runtime.js",
+      "size": 9439,
+      "sha": "9820cbbe1882a9d5d3eb49fd83a515c02eb094ce"
+    },
+    {
+      "path": "scripts/mix_recipe.py",
+      "size": 3824,
+      "sha": "9b8fbb8d5fd418613dd7da3d7a47abe3266e3896"
+    },
+    {
+      "path": "scripts/music_policy.py",
+      "size": 4217,
+      "sha": "ad4ad131794b15be4991e836cb5b49032ec27e47"
+    },
+    {
+      "path": "scripts/narration_edit_map.py",
+      "size": 7121,
+      "sha": "3d500d30f3b7e04e7869a590416f317c3f4adfad"
+    },
+    {
+      "path": "scripts/narration_slice.py",
+      "size": 2939,
+      "sha": "38b0ac38be12b8c2fd8293b0ddb1327a34e1f565"
+    },
+    {
+      "path": "scripts/output-signature.mjs",
+      "size": 13036,
+      "sha": "cef39351103fb981b3a84de1af63e69e5d23d3d1"
+    },
+    {
+      "path": "scripts/pack_catalog.py",
+      "size": 2888,
+      "sha": "d9c4be184a6bc75af9e14ad473781b0755e2ce00"
+    },
+    {
+      "path": "scripts/pack_layout.py",
+      "size": 3541,
+      "sha": "53fe630df1394579cb46f68445ec29729dc559b5"
+    },
+    {
+      "path": "scripts/pipeline.py",
+      "size": 13526,
+      "sha": "5514e04cb66cbcaca8e6c99007bfcaff69288a10"
+    },
+    {
+      "path": "scripts/pipeline.sh",
+      "size": 253,
+      "sha": "f95771629e18680ba42c6866f3b858384478e72c"
+    },
+    {
+      "path": "scripts/plan_macro_project.py",
+      "size": 9116,
+      "sha": "3ae265eb4469dd7485a2aaede7018bf8f12313da"
+    },
+    {
+      "path": "scripts/prep_wall.py",
+      "size": 3081,
+      "sha": "9a1dc55fee03389ec89198d188e7f69991284dc1"
+    },
+    {
+      "path": "scripts/presenter_motion.js",
+      "size": 7759,
+      "sha": "b22e0b01b0fc39a9c07a9795a2a814b2eb68a09b"
+    },
+    {
+      "path": "scripts/preview_delivery.py",
+      "size": 4567,
+      "sha": "9c17140ff99694ff1881c5860b18a4f95c5a425c"
+    },
+    {
+      "path": "scripts/preview_player.js",
+      "size": 2630,
+      "sha": "c0eb2cd52a2527e4e9c64a8aadd0255af5cc88ee"
+    },
+    {
+      "path": "scripts/publish_reviewed_pack.py",
+      "size": 8173,
+      "sha": "3c081755f72579d825938e0344b2e2caaf98ac02"
+    },
+    {
+      "path": "scripts/rematch.py",
+      "size": 22652,
+      "sha": "46ff52792feb0562035c116d07be5ace256d73d5"
+    },
+    {
+      "path": "scripts/rematch_macro_project.py",
+      "size": 13825,
+      "sha": "ef77411899e7f951642eff2fcbdc7c81cad5e98a"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "size": 1153,
+      "sha": "c763fa452900d62aa8432340bdb7f0a0610071d9"
+    },
+    {
+      "path": "scripts/render_project.mjs",
+      "size": 19405,
+      "sha": "cd952a217719bc9d3cdf2d7f1a0bb94d292498b3"
+    },
+    {
+      "path": "scripts/repair_intake.py",
+      "size": 2956,
+      "sha": "4c8327234caf75f5351436a04f55728a12333503"
+    },
+    {
+      "path": "scripts/repair_talk.py",
+      "size": 16539,
+      "sha": "fbca8a6bc35fabd0780b5cf2eb617ddd561868d3"
+    },
+    {
+      "path": "scripts/replay_authored_pack.py",
+      "size": 5381,
+      "sha": "be0e9928330654482554dec777d1c4401fe65f8b"
+    },
+    {
+      "path": "scripts/retime_subtitles.py",
+      "size": 2009,
+      "sha": "750de30cf0cd058f6591affe41978ceb84fe680c"
+    },
+    {
+      "path": "scripts/semantic_inputs.py",
+      "size": 3463,
+      "sha": "bfece1b1bca18445259194c5d140f1e7b0ee9165"
+    },
+    {
+      "path": "scripts/sound_catalog.py",
+      "size": 1743,
+      "sha": "5b84294109a1905340658f692e0b9580e3966a56"
+    },
+    {
+      "path": "scripts/source_registry.py",
+      "size": 13872,
+      "sha": "01d5e1e5364982c49b550ab00d45baa51323be64"
+    },
+    {
+      "path": "scripts/subtitle_position.py",
+      "size": 1035,
+      "sha": "1c2c17c9e9415800e6a9c884531e3fc6b899eba0"
+    },
+    {
+      "path": "scripts/typography_audit.mjs",
+      "size": 4536,
+      "sha": "7d69f85ffde8f0e4fa3e757e0d3b933ff881590a"
+    },
+    {
+      "path": "scripts/verify_delivery.py",
+      "size": 19452,
+      "sha": "165e3a4ca2f44c29f67961dfc13e237dd35f935a"
+    },
+    {
+      "path": "template/assets/demo-presenter.svg",
+      "size": 1078,
+      "sha": "a0644738932eebb1bce7bd33b8004ebac7e2825f"
+    },
+    {
+      "path": "template/audio.py",
+      "size": 2683,
+      "sha": "7ca3aa9c44731fe981c82306d89a4adb54ddf0e0"
+    },
+    {
+      "path": "template/brand/NOTICE.txt",
+      "size": 510,
+      "sha": "e8b8732710c95bb26cff3bf65822198e74c6f70c"
+    },
+    {
+      "path": "template/brand/motiongit-circle-lighter.webm",
+      "size": 165229,
+      "sha": "0b59b3491837df611df6ec3cf0c2fd22b282476a"
+    },
+    {
+      "path": "template/brand/motiongit-circle-path.webm",
+      "size": 158924,
+      "sha": "fe47783cbc13628fd04af7e8be58029fe2b2ad34"
+    },
+    {
+      "path": "template/config.js",
+      "size": 1545,
+      "sha": "5d286eb75f3175de98c7e5f7e59b97fda3fa09e1"
+    },
+    {
+      "path": "template/index.html",
+      "size": 2325,
+      "sha": "297b31a3a8123ebf346fcafc8c0cf15927990cca"
+    },
+    {
+      "path": "template/lib.js",
+      "size": 14321,
+      "sha": "e67404e142bd1361fbe8568d1c1a475d07b823a7"
+    },
+    {
+      "path": "template/main.js",
+      "size": 3101,
+      "sha": "92730194b7d4e8beaf84d6622c5135e62836ee9b"
+    },
+    {
+      "path": "template/output-signature.json",
+      "size": 81,
+      "sha": "8ee78986f19655f894be8f3047807ef1e680303c"
+    },
+    {
+      "path": "template/scenes.js",
+      "size": 1904,
+      "sha": "b8262fcc2bda70dfc71ca59c67ae9c0e014383e2"
+    },
+    {
+      "path": "template/style.css",
+      "size": 2737,
+      "sha": "e2444fe01415392597a54bc8a4ab14c8a30d9d9a"
+    },
+    {
+      "path": "template/subtitles.js",
+      "size": 4526,
+      "sha": "51c8000e23ef251b7f3691f3d80aaeaada51a18e"
+    },
+    {
+      "path": "template/templates.js",
+      "size": 14690,
+      "sha": "b5d59de3730245136424d772353213e559233d60"
+    },
+    {
+      "path": "tests/portrait_fixture.py",
+      "size": 5482,
+      "sha": "8b77a0a5728b3803a9eb4d5cff102904b9d9aab3"
+    },
+    {
+      "path": "tests/signature_fixture.py",
+      "size": 6139,
+      "sha": "0bc8b528aa07004d025f58fadf2a17bd26c2ccd7"
+    },
+    {
+      "path": "tests/stress_runtime_fixture.py",
+      "size": 4719,
+      "sha": "438b71e704f648e7274ec2fa891bdd070cfa1524"
+    },
+    {
+      "path": "tests/test_adapt_project.py",
+      "size": 17008,
+      "sha": "803dd3ab25ae2421421ecdbce03669aee146f231"
+    },
+    {
+      "path": "tests/test_adaptation.py",
+      "size": 26609,
+      "sha": "98683742134eb578d9dcc74dc63384608384ffe4"
+    },
+    {
+      "path": "tests/test_adaptation_audio.py",
+      "size": 7760,
+      "sha": "2664db2c11256f1c0a869a0ca93f1bbe4c676dcd"
+    },
+    {
+      "path": "tests/test_adaptation_build.py",
+      "size": 6014,
+      "sha": "bce181c26e675236156ef7c1b61f648406d413bc"
+    },
+    {
+      "path": "tests/test_adaptation_intake.py",
+      "size": 4495,
+      "sha": "b9d66a9284763f76d3cce20f12aededb8ef03221"
+    },
+    {
+      "path": "tests/test_audit_macro_project.mjs",
+      "size": 4995,
+      "sha": "11da3597ffb1f0cd46e209525f83d5ebd4808d2b"
+    },
+    {
+      "path": "tests/test_authored_pack.py",
+      "size": 4879,
+      "sha": "fcf73626b5c96645fb67626227091c44c271d086"
+    },
+    {
+      "path": "tests/test_authored_units.mjs",
+      "size": 2325,
+      "sha": "eb0d37b23bd297b55232ed4eb38061c42573fefd"
+    },
+    {
+      "path": "tests/test_auto_runtime.mjs",
+      "size": 4591,
+      "sha": "e24675ed98dcc32c8aab80f2e4470e085f060494"
+    },
+    {
+      "path": "tests/test_auto_templates.py",
+      "size": 20202,
+      "sha": "c17aefa98b2b182a85dc1ac26b0ee3063d0c8a83"
+    },
+    {
+      "path": "tests/test_color_management.py",
+      "size": 6367,
+      "sha": "bbd789d6b168ad752bf4590e76d8d48a416071b7"
+    },
+    {
+      "path": "tests/test_doubao_content_capacity.py",
+      "size": 10278,
+      "sha": "d6cbf66ead78fd3f423c9f6f8ea368ebfb648ea6"
+    },
+    {
+      "path": "tests/test_doubao_pack.py",
+      "size": 9590,
+      "sha": "cfe64a705f9f4a6acec1d497ae9966bc222768cd"
+    },
+    {
+      "path": "tests/test_export_clock.py",
+      "size": 1483,
+      "sha": "5436cd02faf06f75821778db1363bf0bf01a6fd0"
+    },
+    {
+      "path": "tests/test_external_fonts.py",
+      "size": 3547,
+      "sha": "6542ceeed717680860683bdba179f7e28255aaf2"
+    },
+    {
+      "path": "tests/test_import_talk.py",
+      "size": 2295,
+      "sha": "a5b84d2d0f7215f9e104b7992050e79149a93977"
+    },
+    {
+      "path": "tests/test_incremental_inline_pack.py",
+      "size": 3787,
+      "sha": "02e4e871798673d6a4077a852dea8f15ce931fab"
+    },
+    {
+      "path": "tests/test_macro_binding.py",
+      "size": 7461,
+      "sha": "49d2e6ec43deda3a9075abd27e85c78dd03c4ad1"
+    },
+    {
+      "path": "tests/test_macro_media_color.py",
+      "size": 9029,
+      "sha": "bc9306a6f33072e036af66bf9a3471387c930411"
+    },
+    {
+      "path": "tests/test_macro_runtime.mjs",
+      "size": 5994,
+      "sha": "51923d0658d186728daf515802f27c1f692ccc14"
+    },
+    {
+      "path": "tests/test_media_probe.py",
+      "size": 6108,
+      "sha": "e4e20fee9e6f1d88ccef314f23e6beaab22d23a5"
+    },
+    {
+      "path": "tests/test_mix_recipe.py",
+      "size": 3976,
+      "sha": "ca1ba3836f75b2494f4b8353e8759c341b2854e1"
+    },
+    {
+      "path": "tests/test_music_policy.py",
+      "size": 10072,
+      "sha": "88bcdbed3c84d7fc88a4ae139bb0fe3d2a8ab0cc"
+    },
+    {
+      "path": "tests/test_narration_edit_map.py",
+      "size": 2347,
+      "sha": "9121d6a8325ce874c67c2d0ed212a7ef2dbb3805"
+    },
+    {
+      "path": "tests/test_output_signature.mjs",
+      "size": 1109,
+      "sha": "d6e70c23968ad7b8f3ddb2e679c3a30908ea8678"
+    },
+    {
+      "path": "tests/test_pack_catalog.py",
+      "size": 994,
+      "sha": "7e9f5a1e076d1ee4a48369247352aafe4e2f41d4"
+    },
+    {
+      "path": "tests/test_paper_ball_pack.py",
+      "size": 3741,
+      "sha": "cf204cbdd7b1c32f76ff4914236aa02206dc0006"
+    },
+    {
+      "path": "tests/test_portability.py",
+      "size": 5098,
+      "sha": "d0a945282b5d530c30e1235d56808c57da149183"
+    },
+    {
+      "path": "tests/test_portability_browser.mjs",
+      "size": 1434,
+      "sha": "40243a7e2b5945a91fa9bd486675c1869cb71cf6"
+    },
+    {
+      "path": "tests/test_portrait_browser.mjs",
+      "size": 5768,
+      "sha": "70b696fbc3ec1ecb41517bda9899097f0ad19cc1"
+    },
+    {
+      "path": "tests/test_portrait_layout.py",
+      "size": 5848,
+      "sha": "b447a8c12a522a1939f21d2e7d65454f9bafc442"
+    },
+    {
+      "path": "tests/test_presenter_browser.mjs",
+      "size": 5791,
+      "sha": "b847a643c3db8706be360ac5d7c0ccaf8be00697"
+    },
+    {
+      "path": "tests/test_presenter_motion.mjs",
+      "size": 1138,
+      "sha": "3bf79b5d31107fa6bdcf817c46a65044d33f7c90"
+    },
+    {
+      "path": "tests/test_presenter_packs.py",
+      "size": 2031,
+      "sha": "9e367d056233ab37c0af2741bd55aafdb2a274ce"
+    },
+    {
+      "path": "tests/test_preview_delivery.py",
+      "size": 9633,
+      "sha": "b985284718a1092825949462eddb39ea010e6052"
+    },
+    {
+      "path": "tests/test_preview_player.mjs",
+      "size": 3419,
+      "sha": "d04e52e1639c51531fe496e815713e0f03a3811e"
+    },
+    {
+      "path": "tests/test_publish_reviewed_pack.py",
+      "size": 7861,
+      "sha": "97a5adcbab921720213c3b52e9b687c35d4e0e42"
+    },
+    {
+      "path": "tests/test_quality_core.py",
+      "size": 6907,
+      "sha": "ee0b5699e6d00bf3c6f755dbb5b0e97ba1e70926"
+    },
+    {
+      "path": "tests/test_quality_integration.py",
+      "size": 3476,
+      "sha": "1e0b3747ff93f147d9ed2033884086c23939247a"
+    },
+    {
+      "path": "tests/test_quality_packs.py",
+      "size": 5390,
+      "sha": "2ee31c67ff13c04bb8a04f8a78a177f85cd0f2cd"
+    },
+    {
+      "path": "tests/test_rematch.py",
+      "size": 22926,
+      "sha": "aa459ba28db9330057dad73aaa13b97b8f83935b"
+    },
+    {
+      "path": "tests/test_rematch_cli.py",
+      "size": 8040,
+      "sha": "5015cd9764d411b6a55184e65376cbc535850e73"
+    },
+    {
+      "path": "tests/test_repair_talk.py",
+      "size": 7141,
+      "sha": "421983a6f64c09b2386a6fadb84d69a6c7edcd0d"
+    },
+    {
+      "path": "tests/test_semantic_input_consumption.py",
+      "size": 2065,
+      "sha": "a599d78852cab30b6f6c61ee7accb44e4eef28b3"
+    },
+    {
+      "path": "tests/test_semantic_media.py",
+      "size": 4141,
+      "sha": "e886bb21f5fbaba19886b79e5f3ba4636ed0abe8"
+    },
+    {
+      "path": "tests/test_signature_browser.mjs",
+      "size": 5885,
+      "sha": "fd2e7ccabf6e2f003804b3e085cb6db45880a917"
+    },
+    {
+      "path": "tests/test_signature_cli.py",
+      "size": 3003,
+      "sha": "e6f3b6cda9018805db876bebec09cf25c98a3b5b"
+    },
+    {
+      "path": "tests/test_source_registry.py",
+      "size": 5089,
+      "sha": "c84e9958abf5720611a0f0e1be8608605af2aaae"
+    },
+    {
+      "path": "tests/test_stress_runtime.mjs",
+      "size": 5063,
+      "sha": "1d88e8ec306270672dd35dda8d189cd7a0340b14"
+    },
+    {
+      "path": "tests/test_subtitle_runtime.mjs",
+      "size": 3952,
+      "sha": "49b0bcd4fe69ac941ca68fc13cc69e096ded0426"
+    },
+    {
+      "path": "tests/test_template_stress.py",
+      "size": 15347,
+      "sha": "a03c5d6861e78976321748df3614a38c24ae0faa"
+    },
+    {
+      "path": "tests/test_verify_delivery.py",
+      "size": 8795,
+      "sha": "e2f80f286a3c03beb0b2a2d2252d8daff3d9655d"
+    },
+    {
+      "path": "tests/test_vibrant_color_pack.py",
+      "size": 3853,
+      "sha": "50ebaa79884f8ab0ad8bc96a990b5de3b5a445e2"
+    },
+    {
+      "path": "tests/test_vibrant_runtime.mjs",
+      "size": 3765,
+      "sha": "bd92921a5c67df7a5e23bdb075845a25d44fb7e9"
+    },
+    {
+      "path": "tests/test_vivid_browser.mjs",
+      "size": 3758,
+      "sha": "ca1631607fb096764dbdc0ed337e53c467ee37ae"
+    },
+    {
+      "path": "tests/test_vivid_sticker_pack.py",
+      "size": 5501,
+      "sha": "6f44694974c8621e94a5ee6eb6d6d508a59312dd"
+    },
+    {
+      "path": "tests/vibrant_fixture.py",
+      "size": 3948,
+      "sha": "a435d596d8965c9fa609806b3f34a5c434d8e9cc"
+    },
+    {
+      "path": "tests/vivid_fixture.py",
+      "size": 4015,
+      "sha": "1c49bc06c15f8640ace6d67d67b72d2e963707f6"
+    },
+    {
+      "path": "third-party/acorn/LICENSE",
+      "size": 1099,
+      "sha": "9d71cc63a35e7d878787e5159b5b163739486220"
+    },
+    {
+      "path": "third-party/playwright-core/LICENSE",
+      "size": 11399,
+      "sha": "4ace03ddb607e2b81b92c584c8d3630e8a333b1e"
+    },
+    {
+      "path": "third-party/playwright-core/NOTICE",
+      "size": 254,
+      "sha": "814ec1696f7ad36c1b524fb6adeef14b4b367fec"
+    }
+  ]
+}
