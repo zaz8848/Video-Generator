@@ -22,7 +22,7 @@
 
 - 2026-11-24，用户授权发布GitHub公开仓库供同事在GitHub Copilot本机使用。新增Agent Plugins 1.0根manifest、五个skills薄路由和两份com.github.copilot/rules路由，复用现有Skill/Instruction正文与唯一一套代码/模板；无自动联网安装hooks，不修改Copilot Studio或消费项目注册。
 - 结构检查验证五入口、两规则及7条路由链接通过；README增加clone、依赖准备、doctor、本地pluginLocations及凭据说明。凭据、node_modules、.runtime、sessions、deliverables排除Git，profiles仅保留变量名模板；上游MIT与媒体许可原样保留。新同事机器的Plugin发现、安装和声画效果仍未验证。
-- 本轮npm test实际14/14通过，使用明确合成媒体，含大帧数回归和1042上游完整性；证据sessions/tests-1795484072593/integration-results.json。本阶段4/5。GitHub创建/推送及最终远端核验状态随后按实际结果记录，不能把本地测试当发布成功。
+- 本轮npm test实际14/14通过，使用明确合成媒体，含大帧数回归和1042上游完整性；证据sessions/tests-1795484072593/integration-results.json。本阶段4/5。已按用户明确Public授权创建并推送 https://github.com/zaz8848/Video-Generator ，远端回读确认PUBLIC/main及plugin.json存在，本地与origin/main同步。公开1090文件约54.5MB，实际暂存扫描排除本地资源并比对已知TTS Key无泄露；同事机器安装/加载及真实声画效果仍未验证。
 
 - 2026-11-19，按用户授权修复 src/product.mjs 的大帧数选择表达式：将线性相加改成平衡表达式，降低 FFmpeg 解析深度；不修改固定上游、源 PTS、选择顺序或冻结恢复合同。新增 product.test.mjs 定向回归，240帧播放加冻结/恢复实际成功，首/中/尾PNG与独立源帧哈希相同。npm test 实际14/14通过，证据在 sessions/tests-1795047474937/integration-results.json 及 sessions/product-1795047474952-74464/；编辑器无错误，回归中的1042上游资产原字节校验通过。
 - 同一修复已在消费项目真实VFR原片失败路径复验：完整产品工程和2571帧成片由原导出器生成，交付校验/完整解码/正常速度播放通过。消费项目素材与业务说明不进入工具源码；未调用TTS或修改业务数据。先前许可字段不兼容和大表达式失败保留，不计为成功；平衡表达式不是分批取帧，也不把源帧采样称为运动插帧。方法效果/声音自然度与用户认可仍另验。工具版本保持0.2.0，本阶段3/5。
